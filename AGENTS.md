@@ -96,7 +96,7 @@ store.cam.connectors;
 - Vor Einwilligung nichts an JATOS senden (soweit die Komponente Daten schreibt).
 - lab.js: Version aus Repo-Vorlage / lokalem `lib/` — nicht raten; API am Code prüfen.
 - Git nur auf explizite Nutzer-Anfrage. Keine echten Ergebnisdaten, keine `.env` committen.
-- Redirect am Ende: `TODO(Leipzig): END_REDIRECT_URL` bis die Arbeitsgruppen-URL feststeht.
+- Redirect am Ende: `TODO(Leipzig): END_REDIRECT_URL` (Platzhalter `https://example.org`) bis die Arbeitsgruppen-URL feststeht.
 
 ## Lokal testen
 

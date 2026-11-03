@@ -11,9 +11,9 @@ var numElementsCounter = 0;
 /**
  * Ziel-URL nach Studienende (Arbeitsgruppen).
  * TODO(Leipzig): END_REDIRECT_URL — echte Arbeitsgruppen-URL einsetzen.
- * Platzhalter "#" nur lokal / bis Freigabe; kein externes Tracking.
+ * Platzhalter example.org bis Freigabe; kein externes Tracking.
  */
-const END_REDIRECT_URL = "#";
+const END_REDIRECT_URL = "https://example.org";
 
 /** Gegen Doppelaufruf von endStudyAndRedirect. */
 var studyEnded = false;
@@ -246,8 +246,8 @@ function saveToJatos() {
 
 /**
  * Studienende Teil 5: speichern → endStudyAndRedirect.
- * Lokal: console.warn + sichtbarer Hinweis, kein Crash.
- * Doppel-Ende wird über studyEnded verhindert.
+ * Lokal: console.warn + direkte Weiterleitung auf END_REDIRECT_URL.
+ * Doppel-Ende wird über studyEnded verhindert (ab dem ersten Aufruf).
  */
 function finishFinalAndRedirect() {
   if (studyEnded) {
@@ -259,12 +259,11 @@ function finishFinalAndRedirect() {
 
   if (!isJatosAvailable()) {
     console.warn(
-      "JATOS nicht verfügbar: endStudyAndRedirect würde hier auf END_REDIRECT_URL leiten.",
+      "JATOS nicht verfügbar: lokale Weiterleitung auf END_REDIRECT_URL.",
       END_REDIRECT_URL,
     );
-    const el = document.getElementById("lokal-ende-hinweis");
-    if (el) el.hidden = false;
     studyEnded = true;
+    window.location.assign(END_REDIRECT_URL);
     return Promise.resolve(false);
   }
 
@@ -273,9 +272,9 @@ function finishFinalAndRedirect() {
     return Promise.resolve(false);
   }
 
+  // sofort sperren, auch während submitResultData läuft
+  studyEnded = true;
   return saveToJatos().then(() => {
-    if (studyEnded) return false;
-    studyEnded = true;
     try {
       // Session nicht leeren; nur lesen. teilnehmer_code bleibt in Results.
       jatos.endStudyAndRedirect(END_REDIRECT_URL);

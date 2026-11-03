@@ -18,7 +18,7 @@ Fünf Komponenten in einer Study: `1_start → 2_CAM_t1 → 3_between → 4_CAM_
 
 - Zwischen Teilen: `jatos.startNextComponent()` (lokal: Hinweis / no-op mit Warnung).
 - Kein `endStudy` in Teil 1–4 — Ausnahme: Abbruch **ohne Einwilligung** in Teil 1 (`endStudy(false, …)`).
-- Beenden nur in Teil 5: nach finalem Submit `jatos.endStudyAndRedirect(END_REDIRECT_URL)`; URL = `TODO(Leipzig)` bis fest. Flag gegen Doppel-Ende.
+- Beenden nur in Teil 5: nach finalem Submit `jatos.endStudyAndRedirect(END_REDIRECT_URL)`; URL = Platzhalter `https://example.org`, `TODO(Leipzig)` bis fest. Flag gegen Doppel-Ende. Lokal leitet Teil 5 per `window.location.assign` weiter.
 
 ## studySessionData (Handoff)
 

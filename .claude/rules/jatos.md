@@ -17,7 +17,7 @@ Eine Study, fünf Komponenten: `1_start → 2_CAM_t1 → 3_between → 4_CAM_t2 
 ## Kette
 
 - Teil 1–4 enden mit `jatos.startNextComponent()`. Kein `endStudy`, einzige Ausnahme: Abbruch ohne Einwilligung in Teil 1 (`endStudy(false, …)`).
-- Nur Teil 5 beendet: `finishFinalAndRedirect()` → `submitResultData` → `jatos.endStudyAndRedirect(END_REDIRECT_URL)`. `END_REDIRECT_URL` ist `"#"` = `TODO(Leipzig)`. Gegen doppeltes Beenden absichern.
+- Nur Teil 5 beendet: `finishFinalAndRedirect()` → `submitResultData` → `jatos.endStudyAndRedirect(END_REDIRECT_URL)`. `END_REDIRECT_URL` ist Platzhalter `"https://example.org"` = `TODO(Leipzig)`. Gegen doppeltes Beenden absichern (Flag + Button nach Klick deaktivieren). Ausnahme zur Lokal-Regel: Teil 5 leitet lokal per `window.location.assign(END_REDIRECT_URL)` weiter.
 
 ## Study Session (Handoff)
 

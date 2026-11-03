@@ -249,7 +249,7 @@ Kein Fragebogen im Code (Briefing sieht Platzhalter „Fragebogen folgt“ vor; 
 - Speichert u. a. `delta_ok`, `delta_valence_trend`, Mittelwerte, Δ Nodes/Connectors, `delta_n_new` / `_deleted` / `_constant`
 
 **Ende:** `finishFinalAndRedirect()` → `submitResultData(datastore.exportJson())` → `jatos.endStudyAndRedirect(END_REDIRECT_URL)`.  
-`END_REDIRECT_URL` ist derzeit `"#"` — `TODO(Leipzig)`.
+`END_REDIRECT_URL` ist derzeit Platzhalter `"https://example.org"` — `TODO(Leipzig)`. Lokal (ohne JATOS) leitet Teil 5 per `window.location.assign` auf dieselbe URL weiter.
 
 ---
 

@@ -18,7 +18,7 @@ Offene Punkte aus Briefing und Code. Stand: nach Prompt 5 (`5_final`).
 ## Ablauf / Parameter
 
 - [ ] Gesamtdauer bzw. Zeitangaben je Teil festlegen
-- [ ] `END_REDIRECT_URL` (Arbeitsgruppen) — Ziel am Ende von Teil 5 (Platzhalter `#` in `5_final/src/js/globals.js`)
+- [ ] `END_REDIRECT_URL` (Arbeitsgruppen) — Ziel am Ende von Teil 5 (Platzhalter `https://example.org` in `5_final/src/js/globals.js`)
 
 ## Config CAM (`2_CAM_t1` + `4_CAM_t2` / `config/configfile.js`)
 
