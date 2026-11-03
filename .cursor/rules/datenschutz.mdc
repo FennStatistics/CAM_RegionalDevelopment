@@ -1,0 +1,18 @@
+---
+description: Datenschutz Uni Leipzig CAM – Datensparsamkeit, Einwilligung
+alwaysApply: true
+---
+
+# Datenschutz (Vorrang vor Komfort)
+
+Rechtliche Finaltexte und Ethikfreigabe: `TODO(Leipzig)`. Entwürfe nie eigenmächtig als final umformulieren.
+
+- **Keine externen Requests:** kein CDN, Analytics, Tracking, Social-Plugins. Nur lokale Assets.
+- **Datensparsamkeit:** kein User-Agent, keine IP, keine Auflösung, keine volle URL als Ergebnisdaten. Kein Metadata-Plugin / keine Fokus-Paradaten aus Soft-Robot-`template/`. Erlaubt: grobe Geräteklasse (optional), Whitelist-Query-Parameter falls nötig.
+- **Vor Einwilligung nichts senden.** Teil 1: Pflichtauswahl; `einwilligung` und `datenschutz_version` speichern. Ohne Einwilligung: freundlicher Abbruch (`jatos.endStudy(false, …)` o. ä.), keine CAM-Teile.
+- Freitext / CAM-Kommentare begrenzen (Vorschlag: 1000 Zeichen); Anzeige immer escapen.
+- Kontaktdaten falls später: nie in `console.log`, URLs, Fehlermeldungen, Dateinamen — maskieren (`n***@example.de`).
+- Stakeholder-Studie: Online-Komponente ohne unnötige Personenmerkmale. Pseudonym-/Code: `TODO(Leipzig)`.
+- Kein Newsletter-Zwang; Opt-in falls später: separat, nie vorangekreuzt, Double-Opt-in-Hinweis.
+- Keine Soft-Robot-, Prolific- oder Freiburg-Logos/Texte. Logos Uni/Projekt: `TODO(Leipzig)` — bis dahin neutrales Layout.
+- Keine echten Ergebnisdaten ins Repo; Testdaten anonym halten.

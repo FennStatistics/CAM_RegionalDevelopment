@@ -1,0 +1,35 @@
+---
+description: Vite-CAM Teile 2 und 4 – store.cam, Delta-IDs, Config, Build
+globs: "{2_CAM_t1,4_CAM_t2}/**"
+alwaysApply: false
+---
+
+# Vite-CAM (`2_CAM_t1/`, `4_CAM_t2/`)
+
+Studienregeln: Root-[AGENTS.md](AGENTS.md) und `_briefing/` (bes. `03_Delta_CAM.md`). Tooling-Details in den Teil-`AGENTS.md`; Root-`AGENTS.md` hat Vorrang.
+
+## Zustand und IDs
+
+- Zustand nur über `store.cam` (kein globales `CAM`, nicht `store.CAM`).
+- Nodes/Connectors inkl. UUID-`id` lesen und serialisieren; `setCam()` ersetzt das Objekt — keinen einmaligen Alias cachen.
+- CAM1 → CAM2: **identische** Node-/Connector-UUIDs wiederherstellen (`importElement` / `setNodeImport`). Legacy-`template/` verwirft IDs — **nicht** übernehmen.
+- Vor Editor-Load: `store.cam === null` → warten.
+
+## Inhalt laut Briefing
+
+- **CAM1 (`2_CAM_t1`):** nur Zentralbegriff `klimaneutrale Regionalentwicklung` (Mitte); `isDraggable=false`, `isDeletable=false`, `isTextChangeable=false`. Speichern → `jatos.studySessionData.CAM_t1`, dann `startNextComponent()`.
+- **CAM2 (`4_CAM_t2`):** CAM1 aus Session laden + oben links fünf Fix-Konzepte: `Windenergie`, `Wasserstoff`, `Netzausbau`, `Akzeptanz`, `Arbeitsplätze` — `isDraggable=true`, `isDeletable=true`, `isTextChangeable=false`. `CAM_t2` schreiben, `CAM_t1` behalten.
+
+## Config und Sprache
+
+- Study-Regeln: `config/configfile.js` (Block zwischen MAKE CHANGES-Markern).
+- Start-CAM: `config/defaultCAM.js`.
+- UI-Texte über `config/languages/*` / `store.language`; Oberfläche Deutsch.
+- Vor Teilnehmer-Build: `ShowResearcherButtons: false`. Keine Soft-Robot-/Prolific-Defaults aus `template/` behalten.
+
+## Dev / Build
+
+- `npm install` → `npm run dev` (lokal).
+- JATOS: `npm run build:jatos` → `dist/` plus Root-Kopie `../<teil>.html` mit Pfaden `./<teil>/dist/…` (JATOS löst gegen den Study-Root auf). Laufzeit-Bildpfade als `${__CAM_ASSET_BASE__}img/…`.
+- ESM mit expliziten `.js`-Imports; Vendor über `src/js/app/vendor.js`; JATOS über `getJatos()` / Stub.
+- Dev-Konsole nur unter `npm run dev` (dynamischer `/src/…`-Import in `dist/`/JATOS nicht verfügbar).

@@ -1,0 +1,324 @@
+/*
+################### Uni Leipzig CAM – Teil 1 (lab.js) ###################
+Neutrales, ruhiges Layout für Stakeholder-Studie. Keine Herder-CI.
+*/
+
+/* ---------- Schrift: Epilogue (lokal, SIL OFL, siehe src/fonts/OFL-LICENSE.txt) ---------- */
+@font-face {
+  font-family: "Epilogue";
+  src: url("../fonts/epilogue-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Epilogue";
+  src: url("../fonts/epilogue-latin-500-normal.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Epilogue";
+  src: url("../fonts/epilogue-latin-700-normal.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Epilogue";
+  src: url("../fonts/epilogue-latin-800-normal.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Farben & Maße ---------- */
+:root {
+  --akzent: #1a5f6e;
+  --akzent-dunkel: #134852;
+  --akzent-hell: #e6f2f4;
+  --hintergrund: #eef1f3;
+  --karte: #ffffff;
+  --text: #1c2428;
+  --text-leise: #5a666c;
+  --rahmen: #c5ced0;
+  --fokus: #3d7a8a;
+  --ecke: 6px;
+  --karte-breite: 760px;
+  --abstand: 24px;
+
+  --font-family: "Epilogue", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --font-size: 17px;
+  --line-height: 1.5;
+  --color-text: var(--text);
+  --color-background: var(--hintergrund);
+  --color-border: var(--rahmen);
+  --color-border-internal: var(--hintergrund);
+  --color-gray-background: var(--hintergrund);
+  --color-gray-content: var(--text-leise);
+}
+
+@media (min-width: 900px) {
+  :root {
+    --font-size: 18px;
+  }
+}
+
+/* ---------- Grundlayout ---------- */
+html,
+body {
+  background: var(--hintergrund);
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 500;
+  color: var(--text);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.seite {
+  max-width: calc(var(--karte-breite) + 2 * 16px);
+  margin: 0 auto;
+  padding: 40px 16px 24px;
+}
+
+.karte {
+  background: var(--karte);
+  padding: 32px 40px;
+  border-radius: var(--ecke);
+  border: 1px solid color-mix(in srgb, var(--rahmen) 70%, white);
+  box-shadow: 0 1px 2px color-mix(in srgb, var(--text) 6%, transparent);
+}
+
+.karte-kopf {
+  padding: 0 0 16px;
+}
+
+.studien-label {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--akzent);
+  letter-spacing: 0.01em;
+}
+
+.progress {
+  height: 6px;
+  margin: 0 0 8px;
+  border: none;
+  border-radius: 3px;
+  background: var(--hintergrund);
+  overflow: hidden;
+}
+.progress .progress-bar {
+  min-height: 6px;
+  height: 6px;
+  border: none;
+  background: var(--akzent);
+  transition: width 0.3s ease;
+}
+
+[data-labjs-section="main"] header,
+[data-labjs-section="main"] main,
+[data-labjs-section="main"] footer {
+  min-height: 0;
+  text-align: left;
+  border: none;
+  background: none;
+  padding: 0;
+}
+[data-labjs-section="main"] main {
+  display: block;
+}
+[data-labjs-section="main"] header h2 {
+  margin-top: 16px;
+}
+[data-labjs-section="main"] footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+.w-xl {
+  width: 100%;
+}
+
+.lade-hinweis {
+  text-align: center;
+  padding: 24px 0;
+}
+
+/* ---------- Typografie ---------- */
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 24px 0 16px;
+}
+h2 {
+  font-size: 1.55rem;
+}
+h3 {
+  font-size: 1.15rem;
+}
+p {
+  margin: 0 0 1em;
+}
+ul {
+  margin: 0 0 1em;
+  padding-left: 1.25em;
+}
+li {
+  margin-bottom: 0.4em;
+}
+.text-muted,
+.subtext {
+  font-weight: 400;
+  color: var(--text-leise);
+}
+a {
+  color: var(--akzent-dunkel);
+}
+a:hover {
+  color: var(--akzent);
+}
+
+.infobox {
+  margin: 1em 0;
+  padding: 14px 16px;
+  background: var(--akzent-hell);
+  border-left: 3px solid var(--akzent);
+  border-radius: 0 var(--ecke) var(--ecke) 0;
+}
+.infobox ul {
+  margin-bottom: 0;
+}
+
+.admin-hinweis {
+  margin: 0 0 1.25em;
+  padding: 12px 14px;
+  background: var(--hintergrund);
+  border: 1px solid var(--rahmen);
+  border-radius: var(--ecke);
+  font-size: 0.95rem;
+}
+
+.code-display {
+  display: block;
+  margin: 0.5em 0 1.25em;
+  padding: 20px 16px;
+  text-align: center;
+  font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", Consolas, monospace;
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--akzent-dunkel);
+  background: var(--akzent-hell);
+  border: 2px dashed var(--akzent);
+  border-radius: var(--ecke);
+  user-select: all;
+  word-break: break-all;
+}
+
+.hinweis-lokal {
+  margin-top: 1em;
+  padding: 12px 14px;
+  background: var(--hintergrund);
+  border: 1px solid var(--rahmen);
+  border-radius: var(--ecke);
+  color: var(--text-leise);
+  font-size: 0.95rem;
+}
+
+/* ---------- Buttons ---------- */
+button,
+.button {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  cursor: pointer;
+  margin: 0;
+  padding: 12px 24px;
+  border: 2px solid var(--akzent);
+  border-radius: var(--ecke);
+  background: var(--akzent);
+  color: #fff;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+button:hover,
+.button:hover {
+  background: var(--akzent-dunkel);
+  border-color: var(--akzent-dunkel);
+}
+button:disabled,
+.button:disabled {
+  cursor: not-allowed;
+  background: var(--rahmen);
+  border-color: var(--rahmen);
+  color: var(--text);
+}
+
+:focus-visible {
+  outline: 3px solid var(--fokus);
+  outline-offset: 3px;
+}
+
+/* ---------- Formularelemente ---------- */
+fieldset {
+  border: none;
+  margin: 0 0 24px;
+  padding: 0;
+}
+legend,
+.frage {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin: 0 0 12px;
+  padding: 0;
+}
+
+label.option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0 0 10px;
+  padding: 12px 14px;
+  border: 2px solid var(--rahmen);
+  border-radius: var(--ecke);
+  background: var(--karte);
+  cursor: pointer;
+  font-weight: 500;
+}
+label.option:hover {
+  border-color: var(--akzent);
+  background: var(--akzent-hell);
+}
+label.option:has(input:checked) {
+  border-color: var(--akzent);
+  background: var(--akzent-hell);
+}
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: var(--akzent);
+  margin-top: 0.2em;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .seite {
+    padding: 16px 12px 20px;
+  }
+  .karte {
+    padding: 20px 18px;
+  }
+  h2 {
+    font-size: 1.35rem;
+  }
+}

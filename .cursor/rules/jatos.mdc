@@ -1,0 +1,52 @@
+---
+description: JATOS Multi-Component-Kette, Session-Handoff, Senden und Deployment
+globs: "**/*.{js,html},**/tools/**"
+alwaysApply: false
+---
+
+# JATOS (Uni Leipzig CAM)
+
+Fünf Komponenten in einer Study: `1_start → 2_CAM_t1 → 3_between → 4_CAM_t2 → 5_final`. API-Doku: [jatos.js Reference](https://www.jatos.org/jatos.js-Reference.html).
+
+## Verfügbarkeit und Start
+
+- Immer absichern: lab.js über `isJatosAvailable()`; Vite-CAM über `getJatos()` / Stub (`src/js/services/jatosAdapter.js`). Lokal: durchklickbar, ohne echtes Senden.
+- lab.js-Start in `study.js`: `jatos.onLoad(() => study.run())` bzw. lokal `study.run()`. Erst nach `onLoad` andere `jatos.*` nutzen.
+- Vite-CAM: `jatos.js` wird durch `npm run build:jatos` in `index.html` injiziert; Dev-Modus ohne JATOS-Inject.
+
+## Komponenten-Kette
+
+- Zwischen Teilen: `jatos.startNextComponent()` (lokal: Hinweis / no-op mit Warnung).
+- Kein `endStudy` in Teil 1–4 — Ausnahme: Abbruch **ohne Einwilligung** in Teil 1 (`endStudy(false, …)`).
+- Beenden nur in Teil 5: nach finalem Submit `jatos.endStudyAndRedirect(END_REDIRECT_URL)`; URL = `TODO(Leipzig)` bis fest. Flag gegen Doppel-Ende.
+
+## studySessionData (Handoff)
+
+Mindestens (Keys dokumentieren, Briefing bei Abweichung nachziehen):
+
+- `teilnehmer_code` — aus Teil 1 (8 Zeichen, `a–z`/`0–9`); **durch alle fünf Teile in `studySessionData` weiterreichen**, nie löschen/neu erzeugen; ideal in jeder Komponenten-Result mitführen
+- `CAM_t1` — serialisiertes CAM nach Teil 2 (nodes, connectors, **inkl. UUID-`id`**)
+- `CAM_t2` — serialisiertes CAM nach Teil 4
+- optional: `meanValence_t*`, `nNodes_t*`, `nConnectors_t*`
+- `einwilligung`, `datenschutz_version` aus Teil 1
+
+Regeln:
+
+- Teil 1 schreibt `teilnehmer_code` (+ Einwilligung) in die Session, dann `startNextComponent()`.
+- Teil 2 schreibt `CAM_t1`, dann `startNextComponent()`; `teilnehmer_code` behalten.
+- Teil 3 darf `CAM_t1` / `teilnehmer_code` lesen, **nicht** löschen oder überschreiben.
+- Teil 4 lädt `CAM_t1` mit denselben IDs, schreibt `CAM_t2`, **behält** `CAM_t1` und `teilnehmer_code`.
+- Teil 5 liest `CAM_t1` und `CAM_t2` für Delta-Feedback; `teilnehmer_code` in finales Result.
+
+## Resultate
+
+- `jatos.submitResultData(json)` **ersetzt** die Daten dieser Komponente — jedes Mal vollständiges Objekt senden ([Doku](https://www.jatos.org/jatos.js-Reference#jatossubmitresultdata)).
+- Vor `startNextComponent` / `endStudy` speichern; Promise abwarten (`.then` / `.catch`).
+- Alle `jatos.*` in try/catch bzw. `.catch`; `console.warn` ohne PII.
+- Vor Einwilligung nichts senden. Keine Metadata-/Paradaten aus Soft-Robot-`template/`.
+
+## Deployment
+
+- Komponenten-HTMLs liegen im Study-Root (`1_start.html` … `5_final.html`) mit Pfaden `./<teil>/…`, weil JATOS gegen den Root auflöst. CAM-HTMLs erzeugt `npm run build:jatos`.
+- Lokal Run → Results prüfen → Study Export `.jzip` (nicht von Hand neu zippen).
+- `.env`, Token und echte Ergebnisdaten git-ignoriert / nie committen.

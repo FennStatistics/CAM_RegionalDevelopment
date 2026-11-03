@@ -1,0 +1,77 @@
+---
+description: lab.js-Muster für Teile 1_start, 3_between, 5_final
+globs: "**/*.{js,css,html}"
+alwaysApply: false
+---
+
+# lab.js (Teile 1 / 3 / 5)
+
+Gilt für `1_start/`, `3_between/`, `5_final/`. Screens bewusst **minimal**; Platzhalter ok wo Briefing das vorsieht.
+
+- Version aus lokalem `<teil>/lib/` — nicht aktualisieren, nicht CDN. API am Code/`lib/lab.js` prüfen, nicht aus dem Gedächtnis.
+- Form: `lab.html.Form` + `pageTemplate()`; Weiter-Button `type="submit"` mit `form="<formId>"`.
+- Screen: `lab.html.Screen` + `responses` oder `timeout`.
+- Sequence/Loop: `lab.flow.Sequence` (`shuffle: true` möglich); bei wiederholter Struktur `lab.flow.Loop` mit `template` + `templateParameters`.
+- Verzweigung: `skip: "${ study.state.… }"` + `tardy: true` (z. B. ohne Einwilligung → Abbruch).
+- Daten: `datastore.set` / `study.state.<feld>`; Export `datastore.exportJson()`.
+- Kein `import`/`export` im Browser-Code. Neue Dateien in `index.html` mit `defer` vor `study.js`.
+- Helfer nutzen: `pageTemplate()`, `radioGroup()`, `setProgress()`, `advanceProgress()`, `isJatosAvailable()`, `escapeHtml()`.
+- Radios: echte `<input type="radio">` in `<label class="option">`, `<fieldset>`/`<legend>`.
+- **Kein** `lab.plugins.Metadata()`. Keine Soft-Robot-/Prolific-/Freiburg-Inhalte aus `template/`.
+- UI Deutsch, **Sie-Form**.
+
+## Explizite Komponenten (nicht überabstrahieren)
+
+- Pro Screen: zuerst `const nameText = \`…\`` (HTML-Inhalt), direkt darunter `const Name_htmlForm = new lab.html.Form({ content: nameText, … })` bzw. `*_htmlScreen` / `Sequence_*`.
+- Text und Komponente nicht trennen (kein zentraler `TEXTS`-Lookup für Seiteninhalt).
+- `title`, `content`, `skip`/`tardy`, `messageHandlers` bleiben an der Komponente sichtbar.
+- **Verboten:** Factories, die Forms zurückgeben (`createRadioQuestion`, …) — lab.js-Lifecycle nicht hinter Parametern verstecken.
+- **Erlaubt:** dünne HTML-/Fortschritts-Helfer (`pageTemplate`, `radioGroup`, `advanceProgress`, `escapeHtml`) — kein Kapseln von `run`/`commit`/`skip`.
+
+```javascript
+const einwilligungText = pageTemplate({
+  title: "Einwilligung",
+  body: "",
+  formId: "form-einwilligung",
+  formContent: radioGroup("einwilligung", "Sind Sie einverstanden?", [
+    ["ja", "Ja, ich bin einverstanden"],
+    ["nein", "Nein, ich bin nicht einverstanden"],
+  ]),
+  button: "Weiter &rarr;",
+});
+
+const Einwilligung_htmlForm = new lab.html.Form({
+  title: "Consent",
+  content: einwilligungText,
+  messageHandlers: {
+    commit: () => { /* speichern / Fortschritt */ },
+  },
+});
+```
+
+## Loop + Sequence (wiederholte Struktur)
+
+**Wann:** Seitenstruktur wiederholt sich, nur Parameter/Text ändern sich. Dann keine N Kopien derselben Form-Datei.
+
+1. Skeleton-`…Text` mit festen DOM-Slots.
+2. **Eine** explizite `*_htmlForm`: in `run` Inhalt aus `this.parameters` füllen; `commit` speichert.
+3. Innere Sequence: `content: [Form]`, `shuffle: false`.
+4. Äußerer `lab.flow.Loop`: `template`, `templateParameters`, `sample.mode`, `indexParameter`.
+
+```javascript
+const SequenceLoop_Items = new lab.flow.Sequence({
+  title: "SequenceLoop_Items",
+  shuffle: false,
+  content: [Item_htmlForm],
+});
+
+const Sequence_Items = new lab.flow.Loop({
+  title: "Items",
+  template: SequenceLoop_Items,
+  templateParameters: ITEMS,
+  sample: { mode: "sequential", n: ITEMS.length },
+  indexParameter: "itemIndex",
+});
+```
+
+- Das ist **kein** verbotenes Form-Factory-Muster. Verboten bleibt `createX(…) → Form`.

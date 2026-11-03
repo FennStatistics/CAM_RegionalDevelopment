@@ -1,0 +1,23 @@
+{
+  "name": "cam-t2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:jatos": "vite build --mode jatos",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cytoscape": "^3.30.0",
+    "jquery": "^3.7.1",
+    "jquery-ui-dist": "^1.13.3",
+    "js-base64": "^3.7.7",
+    "toastr": "^2.1.4",
+    "uuid": "^11.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

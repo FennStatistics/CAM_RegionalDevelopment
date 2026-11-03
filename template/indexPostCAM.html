@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Wahrnehmung Roboter</title>
+  <!-- viewport setup -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- lab.js and libraries -->
+  <script src="lib/lab.js" data-labjs-script="library"></script>
+  <script src="lib/lab.fallback.js" data-labjs-script="fallback"></script>
+  <link rel="stylesheet" href="lib/lab.css">
+
+  <!-- actual experiment code -->
+  <script defer src="./post_CAM/js/globalVar_Text.js"></script>
+  <script defer src="./post_CAM/js/globalVar_Scales.js"></script>
+  <script defer src="./post_CAM/js/CAMinst.js"></script>
+  <script defer src="./post_CAM/js/CAMfeedback.js"></script>
+  <script defer src="./post_CAM/js/paradata_focus.js"></script>
+
+  <script defer src="./post_CAM/js/studyComp2.js"></script>
+
+  <!-- additional files -->
+  <!-- > style sheet -->
+  <link rel="stylesheet" href="./post_CAM/css/style.css">
+  <!-- > additional js libraries -->
+  <script src="post_CAM/js/jatos.js"></script>
+
+  <script src="./post_CAM/js/jquery.js" crossorigin="anonymous"></script>
+  <script src="./post_CAM/js/jqueryUI.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="hideall">
+  <!-- If you'd rather have a container with a fixed width
+       and variable height, try removing the fullscreen class below -->
+    <!-- 
+    <header class="content-vertical-center content-horizontal-center">
+   <div class="container fullscreen">
+      </div>
+    </header>
+  -->
+    <!--     <main class="content-vertical-center content-horizontal-center" data-labjs-section="main"> -->
+    <main data-labjs-section="main">
+      <!-- the nested div is helpful because the centering would
+           otherwise break the natural flow of content -->
+      <div>
+        <img src="lib/loading.svg" alt="loading icon" style="padding: 1rem"><br>
+        <p>
+          <strong>Preparing experiment</strong><br>
+          <span class="text-muted">please wait a moment</span>
+        </p>
+      </div>
+    </main>
+
+    <div id="toprightdiv">Placeholder Questions</div>
+    <div id="toprightdiv_pagenumber">Pagenumber</div>
+    <!--  Again, please feel free to replace the footer content,
+             or to remove the footer if you don't need it 
+    <footer class="content-vertical-center content-horizontal-center" style="background-color: red;">
+      <div>
+        <small class="text-muted">Awesome lab, prestigious institution™</small>
+      </div>
+    </footer>
+    -->
+    <div style="position: relative" class="content-horizontal-center content-vertical-center">
+      <div class="progress" style="position: fixed; bottom: 0; width:95%; margin: 0 auto;   background:#666;">
+        <div class="progress-bar" style="  background: #229954 ;"> </div>
+      </div>
+    </div>
+    </div>
+</body>
+
+<div id="alert" style="background: white; visibility: hidden;" class="defocus">
+  <div id="alert-text" style="text-align: center;">
+    <strong>Bitte wechseln oder minimieren Sie das Browserfenster während der Studie nicht. Nur wenn es eine Pause im Verlauf der Studie gibt.</strong>
+    <br>
+    <button id="alert-button-text" type="button" onclick="document.getElementById('alert').style.visibility = 'hidden'; 
+    document.getElementById('hideall').style.visibility = 'visible'; enterFullscreen()">
+        klicken, um fortzufahren
+    </button>
+  </div>
+</div>
+
+<script>
+  var productionPhase = false;
+
+  if(productionPhase){
+    $(document).on("mousemove", (event) => {
+    $("#toprightdiv_pagenumber").text("#page " + numElementsCounter) 
+  })
+
+  $(document).ready(function() { 
+    $("#toprightdiv_pagenumber").text("#page " + numElementsCounter) 
+});
+  }else{
+    $(document).ready(function() { 
+   $("#toprightdiv").hide(); 
+    $("#toprightdiv_pagenumber").hide(); 
+  });
+}
+</script>
+</html>

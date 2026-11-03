@@ -1,0 +1,2556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3-mathml3.dtd">
+<article article-type="research-article" dtd-version="1.3" xml:lang="EN" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">Front. Robot. AI</journal-id>
+<journal-title-group>
+<journal-title>Frontiers in Robotics and AI</journal-title>
+<abbrev-journal-title abbrev-type="pubmed">Front. Robot. AI</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="epub">2296-9144</issn>
+<publisher>
+<publisher-name>Frontiers Media S.A.</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">1741946</article-id>
+<article-id pub-id-type="doi">10.3389/frobt.2026.1741946</article-id>
+<article-version article-version-type="Version of Record" vocab="NISO-RP-8-2008"/>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Original Research</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Informing robot design through early public engagement: lay perceptions of soft versus rigid socially assistive and rescue robots</article-title>
+<alt-title alt-title-type="left-running-head">Fenn et al.</alt-title>
+<alt-title alt-title-type="right-running-head">
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/frobt.2026.1741946">10.3389/frobt.2026.1741946</ext-link>
+</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<name>
+<surname>Fenn</surname>
+<given-names>J.</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<xref ref-type="corresp" rid="c001">&#x2a;</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/3272111"/>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing - original draft</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Estadieu</surname>
+<given-names>L.</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/3388967"/>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing - original draft</role>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Gorki</surname>
+<given-names>M.</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/3420965"/>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &#x26; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/Writing - review &#x26; editing/">Writing - review and editing</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Monno</surname>
+<given-names>I.</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/3420809"/>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &#x26; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/Writing - review &#x26; editing/">Writing - review and editing</role>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Tauber</surname>
+<given-names>F.</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/866914"/>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &#x26; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/Writing - review &#x26; editing/">Writing - review and editing</role>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Teichmann</surname>
+<given-names>J.</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &#x26; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/Writing - review &#x26; editing/">Writing - review and editing</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Levy-Tzedek</surname>
+<given-names>S.</given-names>
+</name>
+<xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+<xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/50126"/>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &#x26; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/Writing - review &#x26; editing/">Writing - review and editing</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Speck</surname>
+<given-names>T.</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/544738"/>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &#x26; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/Writing - review &#x26; editing/">Writing - review and editing</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>M&#xfc;ller</surname>
+<given-names>O.</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<xref ref-type="aff" rid="aff7">
+<sup>7</sup>
+</xref>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &#x26; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/Writing - review &#x26; editing/">Writing - review and editing</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Kiesel</surname>
+<given-names>A.</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/10537"/>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &#x26; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/Writing - review &#x26; editing/">Writing - review and editing</role>
+<role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<label>1</label>
+<institution>Cluster of Excellence livMatS @ FIT Freiburg Center for Interactive Materials and Bioinspired Technologies, University of Freiburg</institution>, <city>Freiburg</city>, <country country="DE">Germany</country>
+</aff>
+<aff id="aff2">
+<label>2</label>
+<institution>Institute of Psychology, University of Freiburg</institution>, <city>Freiburg</city>, <country country="DE">Germany</country>
+</aff>
+<aff id="aff3">
+<label>3</label>
+<institution>Department for Humanities, Social and Political Sciences, ETH Z&#xfc;rich</institution>, <city>Z&#xfc;rich</city>, <country country="CH">Switzerland</country>
+</aff>
+<aff id="aff4">
+<label>4</label>
+<institution>Recanati School for Community Health Professions, Department of Physical Therapy, Faculty of Health Sciences, Ben-Gurion University of the Negev</institution>, <city>Beer-Sheva</city>, <country country="IL">Israel</country>
+</aff>
+<aff id="aff5">
+<label>5</label>
+<institution>Freiburg Institute for Advanced Studies (FRIAS), University of Freiburg</institution>, <city>Freiburg</city>, <country country="DE">Germany</country>
+</aff>
+<aff id="aff6">
+<label>6</label>
+<institution>Plant Biomechanics Group @ Botanic Garden Freiburg, University of Freiburg</institution>, <city>Freiburg</city>, <country country="DE">Germany</country>
+</aff>
+<aff id="aff7">
+<label>7</label>
+<institution>Faculty of Philosophy, University of Freiburg</institution>, <city>Freiburg</city>, <country country="DE">Germany</country>
+</aff>
+<author-notes>
+<corresp id="c001">
+<label>&#x2a;</label>Correspondence: J. Fenn, <email xlink:href="mailto:julius.fenn@psychologie.uni-freiburg.de">julius.fenn@psychologie.uni-freiburg.de</email>
+</corresp>
+</author-notes>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-19">
+<day>19</day>
+<month>03</month>
+<year>2026</year>
+</pub-date>
+<pub-date publication-format="electronic" date-type="collection">
+<year>2026</year>
+</pub-date>
+<volume>13</volume>
+<elocation-id>1741946</elocation-id>
+<history>
+<date date-type="received">
+<day>07</day>
+<month>11</month>
+<year>2025</year>
+</date>
+<date date-type="rev-recd">
+<day>18</day>
+<month>02</month>
+<year>2026</year>
+</date>
+<date date-type="accepted">
+<day>19</day>
+<month>02</month>
+<year>2026</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>Copyright &#xa9; 2026 Fenn, Estadieu, Gorki, Monno, Tauber, Teichmann, Levy-Tzedek, Speck, M&#xfc;ller and Kiesel.</copyright-statement>
+<copyright-year>2026</copyright-year>
+<copyright-holder>Fenn, Estadieu, Gorki, Monno, Tauber, Teichmann, Levy-Tzedek, Speck, M&#xfc;ller and Kiesel</copyright-holder>
+<license>
+<ali:license_ref start_date="2026-03-19">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+<license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License (CC BY)</ext-link>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p>
+</license>
+</permissions>
+<abstract>
+<p>As soft robots become more prevalent in society, it becomes increasingly important to understand how laypersons evaluate their risks and benefits relative to conventional rigid robots. This article investigates public perceptions of soft versus rigid embodiments of socially assistive robots (SAR) and rescue robots (RR) and explores how these perceptions can inform early-stage robot design. We conducted an online study, using a scenario-based intervention design combined with Cognitive-Affective Maps (CAMs) to capture participants&#x2019; cognitive&#x2013;emotional belief structures. In a first step, participants constructed CAMs depicting perceived risks and benefits of rigid SAR or RR. After reading a second scenario introducing the corresponding soft robot, they revised their maps, allowing a direct contrastive comparison between the first (rigid) and second (soft) scenario. Quantitative analyses showed that, across both application domains, post-intervention evaluations (after the soft-robot scenarios) were more positive than pre-intervention evaluations of rigid robots. Qualitative analyses revealed distinct argument structures: After learning about soft robots, participants added concepts emphasizing safety, emotional comfort, and adaptability, but also introduced concerns such as fragility and emotional dependence, whereas rigid robots were linked to precision, robustness, and efficiency, alongside worries about technical failure, data security, and emotional detachment. By integrating intervention-based CAMs with data-driven qualitative synthesis, the study demonstrates a scalable method for early public engagement that uncovers how laypersons qualitatively negotiate trade-offs between soft and rigid designs in plausible early-stage scenarios. These insights provide actionable input for human-centered design of soft robots, supporting responsible and socially aligned robot development.</p>
+</abstract>
+<kwd-group>
+<kwd>design evaluation</kwd>
+<kwd>multi-method study</kwd>
+<kwd>perceived risks and benefits</kwd>
+<kwd>public perception</kwd>
+<kwd>search and rescue robots</kwd>
+<kwd>socially assistive robots</kwd>
+<kwd>soft robots</kwd>
+</kwd-group>
+<funding-group>
+<award-group id="gs1">
+<funding-source id="sp1">
+<institution-wrap>
+<institution>Deutsche Forschungsgemeinschaft</institution>
+<institution-id institution-id-type="doi" vocab="open-funder-registry" vocab-identifier="10.13039/open_funder_registry">10.13039/501100001659</institution-id>
+</institution-wrap>
+</funding-source>
+<award-id rid="sp1">EXC 2193/1 -390951807</award-id>
+</award-group>
+<funding-statement>The author(s) declared that financial support was received for this work and/or its publication. This research was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany&#x2019;s Excellence Strategy&#x2013;EXC 2193/1 &#x2013; 390951807.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="12"/>
+<table-count count="1"/>
+<equation-count count="0"/>
+<ref-count count="76"/>
+<page-count count="00"/>
+</counts>
+<custom-meta-group>
+<custom-meta>
+<meta-name>section-at-acceptance</meta-name>
+<meta-value>Soft Robotics</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec sec-type="intro" id="s1">
+<label>1</label>
+<title>Introduction</title>
+<p>Soft robotics promises safer and more adaptive human&#x2013;robot interaction due to the intrinsic mechanical compliance and flexibility of soft materials, which reduce the risk of injury, enable physical contact, and allow robust operation in unstructured or confined environments (<xref ref-type="bibr" rid="B33">Lee et al., 2017</xref>; <xref ref-type="bibr" rid="B75">Yasa et al., 2023</xref>). Soft and rigid robotics differ fundamentally in material composition, mechanical behavior, and interaction principles: Rigid robots, typically built from high-stiffness metals or composites, provide high precision, load capacity, and mature control architectures, making them ideal for structured industrial settings (<xref ref-type="bibr" rid="B1">Alici, 2018</xref>; <xref ref-type="bibr" rid="B75">Yasa et al., 2023</xref>). In contrast, soft robots are constructed from compliant materials inspired by biological systems, enabling continuous deformation, morphological adaptability, and embodied intelligence in complex and dynamic environments (<xref ref-type="bibr" rid="B25">Kim et al., 2013</xref>; <xref ref-type="bibr" rid="B60">Tauber et al., 2023</xref>; <xref ref-type="bibr" rid="B63">Trivedi et al., 2008</xref>; <xref ref-type="bibr" rid="B68">Wang and Chortos, 2022</xref>). Beyond their mechanical compliance, additional characteristics such as improved energy efficiency, lower computational demands for gripping tasks, reduced production costs, and potential biodegradability further enhance their suitability for applications requiring physical safety, environmental adaptability, and human-centered interaction (<xref ref-type="bibr" rid="B40">Milana, 2022</xref>; <xref ref-type="bibr" rid="B52">Rossiter, 2021</xref>; <xref ref-type="bibr" rid="B64">van Adrichem and Jovanova, 2021</xref>). First systems such as <italic>RoBoa</italic> for search-and-rescue operations (<xref ref-type="bibr" rid="B12">der Maur et al., 2021</xref>) and the <italic>HugBot</italic> for socially assistive care (<xref ref-type="bibr" rid="B17">Hedayati et al., 2019</xref>) exemplify how compliant design principles can extend robotic functionality to delicate or unpredictable settings. With ongoing advances in materials, actuation, and control, the potential of soft robotics is expected to expand substantially (<xref ref-type="bibr" rid="B34">Liu et al., 2023</xref>; <xref ref-type="bibr" rid="B37">Mazzolai et al., 2022</xref>; <xref ref-type="bibr" rid="B60">Tauber et al., 2023</xref>; <xref ref-type="bibr" rid="B63">Trivedi et al., 2008</xref>; <xref ref-type="bibr" rid="B75">Yasa et al., 2023</xref>).</p>
+<p>As the field of soft robotics advances toward real-world deployment, integrating user perception data into early design stages is essential to ensure that the advantages of compliance, safety, and adaptability translate into socially accepted and functionally effective systems. Existing research has addressed individual perceptual dimensions of soft robotics, such as perceived naturalness (<xref ref-type="bibr" rid="B23">J&#xf8;rgensen et al., 2022</xref>), emotional valence during interaction (<xref ref-type="bibr" rid="B22">J&#xf8;rgensen, 2023</xref>), stress and anxiety reduction through visual or tactile exposure (<xref ref-type="bibr" rid="B45">Probst et al., 2024</xref>), and safety perception influenced by motion dynamics (<xref ref-type="bibr" rid="B69">Wang et al., 2024</xref>). Complementary studies grounded in technology acceptance frameworks, including the Almere Model (<xref ref-type="bibr" rid="B18">Heerink et al., 2010</xref>) and the Technology Acceptance Model (<xref ref-type="bibr" rid="B67">Venkatesh and Bala, 2008</xref>), have identified perceived usefulness, ease of use, enjoyment, trust, and self-efficacy as major determinants of robot acceptance (<xref ref-type="bibr" rid="B13">Felding et al., 2023</xref>; <xref ref-type="bibr" rid="B71">Whelan et al., 2018</xref>; <xref ref-type="bibr" rid="B32">Latikka et al., 2019</xref>). Generally, people tend to hold positive attitudes toward social robots (<xref ref-type="bibr" rid="B11">David et al., 2022</xref>), although acceptance is further shaped by user characteristics such as loneliness or familiarity with robots (<xref ref-type="bibr" rid="B5">Bishop et al., 2019</xref>). An expert survey pointed out barriers including technical limitations (e.g., uncontrollability), lack of emotional expressiveness, and security concerns (<xref ref-type="bibr" rid="B42">Moradi et al., 2018</xref>). Moreover, societal analyses highlight concerns about automation-related job insecurity, increased technological dependence, and excessive skill demands (<xref ref-type="bibr" rid="B74">Yam et al., 2023</xref>; <xref ref-type="bibr" rid="B38">Meissner et al., 2020</xref>).</p>
+<p>However, these studies typically capture static evaluations or isolated constructs and rarely examine how laypersons qualitatively conceptualize and emotionally negotiate the trade-offs between soft and rigid robot designs. Our study addresses this gap by introducing an intervention-based Cognitive-Affective Mapping approach that systematically reveals the conceptual argument structures and emotional dynamics towards rigid and soft robot designs (see <xref ref-type="sec" rid="s1-1">Section 1.1</xref>).</p>
+<sec id="s1-1">
+<label>1.1</label>
+<title>Innovative study design to identify central argument structures of soft robots</title>
+<p>Our study introduces an innovative approach to early-stage design evaluation by combining intervention-based experimentation with Cognitive-Affective Maps (CAMs), a mind-map like method (<xref ref-type="bibr" rid="B15">Fenn et al., 2025</xref>). This mixed-method framework enables the systematic visualization and quantification of how participants cognitively and emotionally represent perceived risks and benefits of robotic systems, as shown in prior discussions of the methodology&#x2019;s usefulness (<xref ref-type="bibr" rid="B35">Livanec et al., 2022</xref>; <xref ref-type="bibr" rid="B41">M&#xf6;ller et al., 2021</xref>; <xref ref-type="bibr" rid="B48">Reuter et al., 2022</xref>) and its application to emerging climate engineering technologies (<xref ref-type="bibr" rid="B14">Fenn et al., 2023</xref>). Unlike conventional survey-based approaches that assess predefined or static attitudes, CAMs uncover the underlying argument structures, emotional valences, and conceptual shifts that emerge when laypersons are introduced to new robotic embodiments. By applying this method to both socially assistive robots (SAR) and rescue robots (RR), we address two domains in which soft robotics holds particularly high societal relevance. Soft SARs have the potential to enhance emotional wellbeing, physical support, and rehabilitation outcomes through safe and adaptive physical interaction, making them valuable in healthcare, eldercare, and therapeutic contexts (<xref ref-type="bibr" rid="B6">Boada et al., 2021</xref>; <xref ref-type="bibr" rid="B31">Langer et al., 2019</xref>; <xref ref-type="bibr" rid="B30">Langer and Levy-Tzedek, 2021</xref>). In contrast, soft RRs can improve operational safety and efficiency in hazardous or unpredictable environments by navigating debris, adapting to uneven terrain, and performing delicate tasks such as locating or assisting trapped individuals (<xref ref-type="bibr" rid="B2">Battistuzzi et al., 2021</xref>; <xref ref-type="bibr" rid="B9">Chitikena et al., 2023</xref>; <xref ref-type="bibr" rid="B76">Zuz&#xe1;nek et al., 2014</xref>). The study provides a scalable framework for integrating user perceptions into the formative stages of soft robot design, promoting responsible innovation and early societal alignment (<xref ref-type="bibr" rid="B24">Kaplan et al., 2021</xref>; <xref ref-type="bibr" rid="B59">Stilgoe et al., 2013</xref>). <xref ref-type="fig" rid="F1">Figure 1</xref> illustrates how layperson evaluations can inform design considerations for socially interactive and safety-critical robotic systems.</p>
+<fig id="F1" position="float">
+<label>FIGURE 1</label>
+<caption>
+<p>Graphical representation of layperson perceptions of (soft) socially assistive robots. By addressing laypersons&#x2019; attitudes toward soft robots, the study aims to promote responsible innovation and informed design decisions applicable to both socially assistive robots (SAR) and rescue robots (RR).</p>
+</caption>
+<graphic xlink:href="frobt-13-1741946-g001.tif">
+<alt-text content-type="machine-generated">Concept map graphic comparing perceived risks and benefits of conventional robots and soft robots for social assistance. Central risks for both types include loss of therapist jobs, risk of dependency, lack of empathy, unknown reactions, and unrealistic learning. Benefits identified include non-judgmental feedback, learning, emotion recognition, infinite patience, low risk of injury, animal protection, and supportive qualities. Each risk and benefit is grouped in color-coded hexagons or ovals, with labeled arrows connecting related concepts to both robot categories.</alt-text>
+</graphic>
+</fig>
+<p>To evaluate how people perceive soft robots compared to rigid robots, we conducted an online study with a final sample of 180 participants. The study was designed to assess perceived risks and benefits using a scenario-based intervention framework grounded in method of Cognitive-Affective Mapping (<xref ref-type="bibr" rid="B61">Thagard, 2010</xref>). CAMs are a structured, mind-map-like methodology for representing and analyzing participants&#x2019; cognitive and emotional associations toward a given topic (<xref ref-type="bibr" rid="B21">Homer-Dixon et al., 2013</xref>; <xref ref-type="bibr" rid="B48">Reuter et al., 2022</xref>). Extending traditional mind-mapping techniques, CAMs enable both qualitative and quantitative analyses of belief structures by integrating cognitive relations and affective evaluations (<xref ref-type="bibr" rid="B15">Fenn et al., 2025</xref>). Concepts are interconnected through weighted supportive or inhibitory links and assigned emotional valence ratings on a scale from &#x2212;3 (very negative) to &#x2b;3 (very positive), which are visualized using color coding (green &#x3d; positive, red &#x3d; negative, yellow &#x3d; neutral, purple &#x3d; ambivalent). Using our custom-developed software (<xref ref-type="bibr" rid="B15">Fenn et al., 2025</xref>), participants constructed CAMs centered on predefined core concepts&#x2014;either &#x201c;socially assistive robot&#x201d; (SAR) or &#x201c;rescue robot&#x201d; (RR)&#x2014;with &#x201c;benefits&#x201d; positioned on the right and &#x201c;risks&#x201d; on the left. Participants were instructed to draw additional concepts, link them, assign emotional evaluations, and provide short explanatory comments where appropriate. An exemplary CAM drawn by a participant, illustrating the perceived risks and benefits of a soft RR, is shown in <xref ref-type="fig" rid="F2">Figure 2</xref>.</p>
+<fig id="F2" position="float">
+<label>FIGURE 2</label>
+<caption>
+<p>Exemplary CAM on perceived risks and benefits of soft RR drawn by one participant. Valences of the concepts are represented by the concepts&#x2019; shapes and colors. Green ovals &#x3d; positive affect; red hexagons &#x3d; negative affect; yellow rectangles &#x3d; neutral affect; purple superimposed hexagons with ovals &#x3d; ambivalent affect. For green and red colored concepts, strength of the shape&#x2019;s border denotes a grading of the emotional evaluation ranging from [-3,3] &#x2013; the thicker the frame, the more positive/negative the concept. Two types of links indicate the relations between concepts. Solid lines &#x3d; supportive connections; dashed lines &#x3d; inhibiting connections.</p>
+</caption>
+<graphic xlink:href="frobt-13-1741946-g002.tif">
+<alt-text content-type="machine-generated">Concept map graphic illustrating risks and benefits of rescue robots. Risks are in red hexagons, including complexity of the problem, lack of safety net, problems with contacting, black box, thought process not comprehensible, developer bias, and bias of algorithms. Risks connect to rescue robot, which also connects to benefits in green ellipses, such as deciphering incomprehensible patterns, improved approach, accessibility of inaccessible places, flexibility, relief for rescue workers, better support possible, and new approaches. &#x22;Calming the injured&#x22; is in a yellow rectangle linked to risks, while benefits link to detailed concepts through green lines.</alt-text>
+</graphic>
+</fig>
+<p>The intervention design involved a two-step mapping process. In the first phase (pre-intervention), participants read a scenario text describing either a conventional rigid SAR or RR and created an initial CAM representing the perceived risks and benefits of that robot type. In the second phase (post-intervention), participants were exposed to a follow-up scenario describing the corresponding soft robotic version and were asked to revise their CAMs accordingly. This included modifying existing concepts, adjusting their emotional valence, or adding and removing concepts to reflect newly perceived risks and benefits. The resulting CAMs were then analyzed by categorizing each concept as <italic>constant</italic> (unchanged), <italic>deleted</italic>, or <italic>new</italic> (added after the intervention). <xref ref-type="fig" rid="F3">Figure 3</xref> illustrates this process with an exemplary CAM, showing newly added concepts such as &#x201c;low risk of injury&#x201d; (positive) and removed elements like &#x201c;no human contact&#x201d; (negative), reflecting how exposure to information about soft robotics can reshape lay perceptions. For readability, in the results, constant concepts (pre-intervention) are labeled as &#x201c;rigid&#x201d;, while new concepts (post-intervention) are labeled as &#x201c;soft&#x201d;.</p>
+<fig id="F3" position="float">
+<label>FIGURE 3</label>
+<caption>
+<p>Evolution of CAMs in study design depicts the construction and updating of a CAM to reflect their perceptions of risks and benefits. This example shows a CAM for a SAR with added (&#x201c;soft&#x201d;) and removed (&#x201c;rigid&#x201d;) concepts in the post-intervention.</p>
+</caption>
+<graphic xlink:href="frobt-13-1741946-g003.tif">
+<alt-text content-type="machine-generated">Flowchart and concept maps compare rigid and soft robot reasoning processes, then illustrate concept mapping changes: deleted concepts are highlighted in orange with dashed borders, new concepts in blue with dashed borders, and arrows indicate evolution from C1 (before) to C2 (after) with explanations for &#x201C;Added (N) and deleted (D) concepts.&#x201D;.</alt-text>
+</graphic>
+</fig>
+<p>However, this labeling reflects temporal order rather than robot-specific associations. A concept labeled &#x201c;rigid&#x201d; may equally apply to soft robots but was simply mentioned before the intervention. Consequently, all interpretations of &#x201c;rigid&#x201d; versus &#x201c;soft&#x201d; concepts should be understood as reflecting pre-versus post-intervention mentions, rather than mutually exclusive robot-type attributions. Because the study employs sequential exposure (rigid first, soft second) and a comparative framing (explicit instruction to revise CAMs), observed differences are interpreted in the following as contrastive evaluations shaped by the task context, rather than independent assessments of each embodiment in isolation (<xref ref-type="bibr" rid="B50">Rosenthal-von der P&#xfc;tten et al., 2013</xref>; <xref ref-type="bibr" rid="B62">Torre and White, 2021</xref>). In general, such within-participants designs are prone to order effects (e.g., familiarity, fatigue, learning/habituation, or novelty effect), which can influence the evaluations independent of the manipulated content, whereby counterbalancing is a standard remedy, whereas fixed-order designs (as used here) require cautious interpretation (<xref ref-type="bibr" rid="B20">Hoffman and Zhao, 2020</xref>; <xref ref-type="bibr" rid="B51">Rosenthal-von der P&#xfc;tten et al., 2025</xref>). Hereby, consistent with qualitative, design-oriented HRI research our study is explicitly design-oriented (<xref ref-type="bibr" rid="B66">Veling and McGinn, 2021</xref>): we use revision-based CAMs to elicit the considerations, trade-offs, and central attributes that laypersons foreground when comparing alternative robot embodiments in plausible early-stage scenarios.</p>
+<p>By automatically classifying the concepts in participants&#x2019; CAMs as constant, deleted, or newly generated, we quantify revision-based shifts in which risks, benefits, and interaction-relevant themes participants emphasize after sequential exposure to a rigid-robot scenario followed by a soft counterpart scenario. These shifts are interpreted as contrastive, scenario-dependent evaluations, and serve as actionable input for early design recommendations (see <xref ref-type="table" rid="T1">Table 1</xref>). Our study was guided by three key research questions, which have been investigated in the respective result sections (see <xref ref-type="sec" rid="s3">Section 3</xref>):<list list-type="order">
+<list-item>
+<p>Are soft robots perceived more positively than rigid robots?</p>
+</list-item>
+<list-item>
+<p>What are the most significant risks and benefits associated with soft robots compared to conventional robots?</p>
+</list-item>
+<list-item>
+<p>To what extent do demographic factors, such as gender, shape the evaluation and perception of soft robots compared to rigid robots?</p>
+</list-item>
+</list>
+</p>
+<table-wrap id="T1" position="float">
+<label>TABLE 1</label>
+<caption>
+<p>Comparison of participant-derive design considerations under scenario-based, contrastive elicitation for RR and SAR regarding perceived risks and safety, and human-robot interaction dynamics as input for early-stage design recommendations.</p>
+</caption>
+<table>
+<thead valign="top">
+<tr>
+<th align="left">Category</th>
+<th align="left">Facet</th>
+<th align="left">Rescue robots</th>
+<th align="left">Socially assistive robots</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr>
+<td align="left">Perceived risks, safety</td>
+<td align="left">Differences (soft vs. rigid)</td>
+<td align="left">
+<bold>Soft robots:</bold> Require durable, compliant materials to address fragility and reduce risks of damage, minimizing injury risks through flexibility in interaction<break/>
+<bold>Rigid robots:</bold> Emphasize strength and redundancy to counter risks from technical failure, developmental errors, and ethical misuse</td>
+<td align="left">
+<bold>Soft robots:</bold> Leverage flexible materials to reduce injury risks but require enhanced fail&#x2013;safe systems to address processing vulnerabilities<break/>
+<bold>Rigid robots:</bold> Address concerns about data security and potential physical harm from rigid structures</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">Most important</td>
+<td align="left">Prioritize safety by ensuring reliable, predictable, and user&#x2013;centered operation across all robot types</td>
+<td align="left">Combine soft materials with robust fail&#x2013;safes and predictable behavior to enhance safety and reliability in socially assistive robots</td>
+</tr>
+<tr>
+<td align="left">Perceived negative, positive human robot interaction</td>
+<td align="left">Differences (soft vs. rigid)</td>
+<td align="left">
+<bold>Soft robots:</bold> Better suited for fostering emotional connections due to flexible, approachable materials and designs that minimize fear and discomfort. Enable safer physical interactions and adaptability in complex environments but must address precision concerns to ensure reliability<break/>
+<bold>Rigid robots:</bold> Prioritize durability, operational stability, and physical robustness to withstand harsh conditions and extended missions. Their mechanical appearance may evoke emotional detachment</td>
+<td align="left">
+<bold>Soft robots:</bold> Emphasize comfort through soft, tactile&#x2013;friendly materials to enhance emotional engagement and minimize physical intimidation, but must address concerns of over&#x2013;dependence, fragility, and maintenance challenges<break/>
+<bold>Rigid robots:</bold> Prioritize robustness and technical precision to counter perceptions of fear or intimidation while ensuring safe operation in structured environments</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">Most important</td>
+<td align="left">Incorporate empathetic interaction and safety mechanisms to ensure reliability and emotional support during rescue operations</td>
+<td align="left">Balance emotional understanding and physical safety while ensuring reliable, user&#x2013;centered operation across both robot types</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</sec>
+</sec>
+<sec sec-type="methods" id="s2">
+<label>2</label>
+<title>Methods</title>
+<sec id="s2-1">
+<label>2.1</label>
+<title>Procedure</title>
+<p>We employed a mixed-method approach to investigate the perceptions of SAR and RR through a structured six-step process, as illustrated in <xref ref-type="fig" rid="F4">Figure 4</xref>. (1) Initially, participants were welcomed and provided consent to partake in the study. (2) To ensure thoughtful participation, a seriousness check was implemented before participants were randomly assigned to receive a scenario text outlining the potential risks and benefits of either conventional SAR or RR. (3) Subsequently, participants were introduced to the CAM software and instructed to construct a CAM depicting their perceived risks and benefits of the assigned robot type. (4) After this initial drawing phase, they were presented with a second scenario text describing the soft counterpart of their initially assigned robot&#x2014;either a soft SAR or soft RR. (5) Participants then revised their CAM based on the newly acquired information, thereby eliciting a contrastive evaluation in explicit comparison to the previously presented rigid-robot scenario. (6) Finally, they completed a set of survey questions designed to assess their overall perception of robots (6). The study flow diagram in <xref ref-type="fig" rid="F4">Figure 4</xref> visually represents this process, with ellipses indicating the scenario texts, dark gray boxes denoting the drawn CAMs for both rigid and soft robots, and light gray indicating the survey questions, whereby only the CAM data is reported in this article.</p>
+<fig id="F4" position="float">
+<label>FIGURE 4</label>
+<caption>
+<p>Study flow diagram illustrates the six-step study process, where ellipses represent the scenario texts and the drawn CAMs for both rigid and soft robots are colored in dark gray. The survey questions, shown in light gray, were analyzed in an exploratory manner.</p>
+</caption>
+<graphic xlink:href="frobt-13-1741946-g004.tif">
+<alt-text content-type="machine-generated">Flowchart outlining a research study process: participants provide consent, are randomly assigned to Rigid SAR (99) or Rigid RR (117), draw a CAM, are split into Soft SAR or Rigid RR, adjust the drawn CAM, then complete survey questions.</alt-text>
+</graphic>
+</fig>
+<sec id="s2-1-1">
+<label>2.1.1</label>
+<title>Development of scenario texts</title>
+<p>These scenario texts were developed by two postdoctoral researchers with expertise in psychology and ethics, following a review of the robotics literature to identify key risks and benefits associated with conventional and soft SAR and RR. This process was iterative, creating different versions of the scenario texts in accordance with recommendations from existing research (<xref ref-type="bibr" rid="B27">Kosow and Gassner, 2008</xref>; <xref ref-type="bibr" rid="B55">Schwartz, 1996</xref>). Quality criteria such as readability, plausibility, and consistency were considered to ensure the scenarios were accurately depicted (<xref ref-type="bibr" rid="B27">Kosow and Gassner, 2008</xref>; <xref ref-type="bibr" rid="B39">Mietzner and Reger, 2005</xref>). Additionally, the scenario texts were informed by an expert survey involving 21 specialists in soft robotics, materials science, and related fields, all affiliated with the Cluster of Excellence Living Materials Systems (<italic>liv</italic>MatS) at the University of Freiburg (<xref ref-type="bibr" rid="B57">Speck et al., 2023</xref>). These experts provided insights into the primary risks and benefits of both conventional and soft SAR and RR (see in detail &#x201c;1. Feedback Experts&#x201d; in the <xref ref-type="sec" rid="s12">Supplementary Material</xref>). The final scenario texts described either the conventional rigid SAR or RR and their soft counterparts. Each scenario provided general information, followed by three potential risks and three potential benefits, ensuring a balanced presentation of information.</p>
+</sec>
+</sec>
+<sec id="s2-2">
+<label>2.2</label>
+<title>Collected Cognitive-Affective Maps</title>
+<p>As described in <xref ref-type="sec" rid="s1-1">Sections 1.1</xref>, <xref ref-type="sec" rid="s2-1">2.1</xref>, participants first constructed a CAM based on either a SAR or a RR. Each CAM was centered around a predefined core concept&#x2014;either &#x201c;socially assistive robot&#x201d; or &#x201c;rescue robot&#x201d;&#x2014;with &#x201c;benefits&#x201d; positioned to the right and &#x201c;risks&#x201d; to the left. Using our custom-developed CAM software (<xref ref-type="bibr" rid="B15">Fenn et al., 2025</xref>), participants were instructed to add at least ten new concepts, connect them through supportive or inhibitory links, and provide brief explanatory comments. The predefined core concepts remained fixed to ensure comparability across participants. After completing their initial CAM, participants rated its representativeness on a seven-point Likert scale (1 &#x3d; completely unrepresentative, 7 &#x3d; fully representative), yielding an average score of 6.02 (SD &#x3d; 0.93), indicating that participants perceived their initial drawn CAMs as highly reflective of their own attitudes and thoughts. Subsequently, participants read a second scenario describing the soft counterpart of their initially assigned robot (either a soft SAR or soft RR) and were instructed to revise their CAMs by adding, deleting, or modifying concepts to reflect their contrastive evaluations. The resulting changes were automatically categorized as &#x201c;new&#x201d;, &#x201c;deleted&#x201d;, or &#x201c;constant&#x201d;.</p>
+<p>Data were collected from 226 participants in Germany via the online platform Prolific in December 2023. In total, 452 CAMs were drawn, comprising one map for rigid and one for soft robots per participant. We excluded eight persons (16 CAMs) from further analysis for several reasons: One participant created too many empty concepts, another only used predefined concepts, and a third predominantly added the concept with the written text &#x201c;empty&#x201d;. Additionally, five participants encountered technical issues, likely due to slow internet connections, which prevented the default CAM with predefined concepts from loading correctly. After these exclusions, our sample consisted of 436 CAMs (respective 218 participants), resulting in a data loss of approximately 3.5% due to human and technical errors. While the majority of participants (83%) introduced new concepts, approximately 17% neither added nor removed any concepts, despite explicit instructions. These participants were excluded from further analysis, because our planned analyses quantify revision-related changes. However, we acknowledge that &#x201c;no change&#x201d; may represent a meaningful outcome (e.g., stability or resistance to updating) rather than noncompliance, and excluding such cases may upwardly bias observed change patterns. This resulted in a final sample of 180 participants, each of whom created an initial CAM reflecting their perceptions of rigid robots and later revised it to incorporate their updated perceptions of soft robots, yielding 98 participants for RR and 82 for SAR. In the final dataset of 360 CAMs, whereby ambivalent and neutral concepts were assigned a value of 0, the mean valence was slightly positive with 0.19 (SD &#x3d; 0.47). Participants drew an average of 15.06 concepts per CAM (SD &#x3d; 3.72), resulting in 1,902 unique concepts (5,420 total) and 1,113 comments, with an average length of 11.85 words (SD &#x3d; 7.33). The most frequently drawn concepts included &#x201c;costs&#x201d;, &#x201c;abuse&#x201d;, and &#x201c;dependency&#x201d;. On average, each participant added 1.43 positive concepts (SD &#x3d; 1.35) and 0.94 negative concepts (SD &#x3d; 1.31), indicating a slight overall positive evaluation of soft robots, compared to rigid ones. Notably, 33% of participants did not add any concepts that were evaluated negatively.</p>
+</sec>
+<sec id="s2-3">
+<label>2.3</label>
+<title>Data preparation</title>
+<p>The data preparation and analysis followed a structured six-step procedure adapted from a previous CAM publication (<xref ref-type="bibr" rid="B14">Fenn et al., 2023</xref>) and qualitative content analysis (<xref ref-type="bibr" rid="B28">Kuckartz and R&#xe4;diker, 2022</xref>; <xref ref-type="bibr" rid="B36">Mayring, 2022</xref>). As illustrated in <xref ref-type="fig" rid="F5">Figure 5</xref>, the process starts with the preparation of the drawn CAM data, including the extraction and cleaning of all concepts, and inter-concept connections. In a second step, all participant-generated concepts were translated from German into English. Subsequently, the research team developed detailed coding guidelines through a combined top-down and bottom-up approach: theoretical categories were first derived from the literature on human&#x2013;robot interaction (e.g., <xref ref-type="bibr" rid="B8">Br&#xf6;hl et al., 2019</xref>) and technology acceptance (e.g., <xref ref-type="bibr" rid="B18">Heerink et al., 2010</xref>), and then refined inductively based on recurring patterns observed in the CAM data. These coding guidelines enabled a transparent and reproducible categorization of all concepts into meaningful risk- and benefit-related dimensions. In the fourth step, the finalized coding guidelines were systematically applied to the entire dataset by multiple coders to classify each concept into its corresponding category. Building on this coded dataset, quantitative analyses were conducted to examine differences in category frequencies between robot types (SAR, RR) and across their rigid and soft embodiments. In the final step, Large Language Models (Llama-3.1-70B-Instruct; GPT-3.5-Turbo) were employed to semi-automatically summarize argument structures within each category (<xref ref-type="bibr" rid="B16">H&#xe4;m&#xe4;l&#xe4;inen et al., 2024</xref>). The automatically generated summaries and coding suggestions were subsequently reviewed and validated by the first two authors to ensure conceptual accuracy, consistency, and interpretive reliability. This integrated workflow ensured a systematic, transparent, and replicable analysis of both cognitive and affective dimensions in participants&#x2019; representations of soft and rigid robots.</p>
+<fig id="F5" position="float">
+<label>FIGURE 5</label>
+<caption>
+<p>Illustration of the data preparation and analysis process involving a six-step procedure.</p>
+</caption>
+<graphic xlink:href="frobt-13-1741946-g005.tif">
+<alt-text content-type="machine-generated">Flowchart showing six-step research process: preparing CAM data with emotional evaluation, translating German concepts to English, developing coding guidelines using literature search and collected data, categorizing concepts, applying quantitative analysis to compare category differences, and using large language models to summarize categories.</alt-text>
+</graphic>
+</fig>
+</sec>
+<sec id="s2-4">
+<label>2.4</label>
+<title>Technical aspects</title>
+<p>The analyses were performed using the statistical software R (<xref ref-type="bibr" rid="B46">R Core Team, 2020</xref>) and Python (<xref ref-type="bibr" rid="B65">Van Rossum and Drake, 2009</xref>), employing tools such as the rmarkdown package (<xref ref-type="bibr" rid="B73">Xie et al., 2018</xref>) and Jupyter Notebook (<xref ref-type="bibr" rid="B26">Kluyver et al., 2016</xref>) to produce reproducible dynamic scripts. These dynamic scripts integrate code, output, and text within a single document, facilitating the transfer of the proposed methodology to future studies. R was utilized to conduct quantitative analyses and generate visualizations, leveraging packages like psych (<xref ref-type="bibr" rid="B49">Revelle, 2021</xref>) and ggplot2 (<xref ref-type="bibr" rid="B72">Wickham, 2016</xref>). Python, on the other hand, was primarily used to apply the OpenAI API alongside LangChain for creating textual summaries of the specific categories. Detailed information about the applied packages (in R) and modules (in Python) can be found in the analysis files available on GitHub (<ext-link ext-link-type="uri" xlink:href="https://github.com/FennStatistics/Article_SoftRobotIntervention">https://github.com/FennStatistics/Article_SoftRobotIntervention</ext-link>).</p>
+<p>The study was conducted online using the participant marketplace Prolific. Participants were required to be fluent in German and reside in Germany. Throughout both studies, we adhered to established standards of web-based research (<xref ref-type="bibr" rid="B47">Reips, 2021</xref>; <xref ref-type="bibr" rid="B54">Sauter et al., 2020</xref>). The studies were programmed using lab. js (<xref ref-type="bibr" rid="B19">Henninger et al., 2022</xref>), which provided the flexibility to collect paradata, such as recording when participants exited the full screen mode during the online study. The studies were hosted on a local university JATOS server (<xref ref-type="bibr" rid="B29">Lange et al., 2015</xref>), ensuring the highest privacy standards were maintained.</p>
+</sec>
+</sec>
+<sec sec-type="results" id="s3">
+<label>3</label>
+<title>Results</title>
+<p>This study systematically evaluated contrastive evaluations (pre-intervention vs. post-revision) of rigid and soft SARs and RRs through a combination of quantitative and qualitative analyses, focusing on emotional evaluations and the underlying argument structures for perceived risks, safety, and human-robot interaction. Our findings highlight nuanced differences in participants&#x2019; evaluations: Quantitative results demonstrated significantly more positive emotional evaluations and an increased number of drawn concepts after the intervention. Qualitative analyses revealed distinct argument structures and shifts in conceptualizations. Using a three-step analysis procedure, we first mapped participants&#x2019; pre- and post-intervention drawn concepts into key categories such as perceived safety, trust, and human-robot interaction (positive and negative), uncovering category-specific differences between rigid and soft robots. Second, Large Language Models (LLMs) identified shared and distinct argument structures across robot types, with rigid robots associated with precision and operational reliability and soft robots linked to emotional engagement and adaptability. Finally, detailed coding revealed distinct differences in perceived safety, risks, and the nature of the human-robot Interaction. For example, post-intervention CAMs&#x2014;revised after participants read the soft-robot scenarios&#x2014;contained more references to robots as safe and emotionally engaging, while also introducing concerns such as fragility and emotional dependency. By contrast, pre-intervention CAMs, referring to the rigid-robot scenarios, more frequently emphasized reliability and precision and highlighted concerns about technical issues and emotional detachment.</p>
+<sec id="s3-1">
+<label>3.1</label>
+<title>Quantitative analyses of perceived risks and benefits</title>
+<p>The quantitative results indicate that both robot types, emotional evaluations became more positive in post-revision CAMs (after the soft-robot scenario) than in pre-intervention CAMs (after the rigid-robot scenario). In addition, the RR and SAR were perceived differently, with the RR eliciting a significantly more positive emotional evaluation. <xref ref-type="fig" rid="F6">Figure 6</xref>, provide an overview of the effects of robot type (SAR &#x26; RR) and the intervention on three key outcomes: emotional evaluation, the total number of drawn concepts, and the number of negatively rated concepts.</p>
+<fig id="F6" position="float">
+<label>FIGURE 6</label>
+<caption>
+<p>Comparison of emotional evaluation, and drawn concepts between rigid and soft SAR &#x26; RR shows the differences of the rigid (pre) and soft (post) condition differentiated by RR and SAR for the average emotional evaluation (top left), number of drawn concepts (top right), and the number of drawn positive concepts (bottom left). Note: the legend shown in the top-left graphic applies to all graphics.</p>
+</caption>
+<graphic xlink:href="frobt-13-1741946-g006.tif">
+<alt-text content-type="machine-generated">Three bar charts and a data table summarize experimental results comparing rescue robot and social assistance robot performance using rigid or soft interventions. The charts show significant effects of robot type and intervention on emotional evaluation, number of concepts, and number of positive concepts. The table presents ANOVA statistics with effect sizes and p-values for each variable.</alt-text>
+</graphic>
+</fig>
+<p>The analysis revealed that the type of robot significantly influenced the average emotional evaluation of drawn concepts, with a medium effect size, <inline-formula id="inf1">
+<mml:math id="m1">
+<mml:mrow>
+<mml:mi>F</mml:mi>
+<mml:mrow>
+<mml:mo stretchy="false">(</mml:mo>
+<mml:mrow>
+<mml:mn>1,178</mml:mn>
+</mml:mrow>
+<mml:mo stretchy="false">)</mml:mo>
+</mml:mrow>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mn>14.27</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf2">
+<mml:math id="m2">
+<mml:mrow>
+<mml:mi>p</mml:mi>
+<mml:mo>&#x3c;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>001</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf3">
+<mml:math id="m3">
+<mml:mrow>
+<mml:msubsup>
+<mml:mrow>
+<mml:mi>&#x3b7;</mml:mi>
+</mml:mrow>
+<mml:mrow>
+<mml:mtext>partial</mml:mtext>
+</mml:mrow>
+<mml:mrow>
+<mml:mn>2</mml:mn>
+</mml:mrow>
+</mml:msubsup>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>074</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>. Emotional evaluations were significantly more positive after the intervention, <inline-formula id="inf4">
+<mml:math id="m4">
+<mml:mrow>
+<mml:mi>F</mml:mi>
+<mml:mrow>
+<mml:mo stretchy="false">(</mml:mo>
+<mml:mrow>
+<mml:mn>1,178</mml:mn>
+</mml:mrow>
+<mml:mo stretchy="false">)</mml:mo>
+</mml:mrow>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mn>14.68</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf5">
+<mml:math id="m5">
+<mml:mrow>
+<mml:mi>p</mml:mi>
+<mml:mo>&#x3c;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>001</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf6">
+<mml:math id="m6">
+<mml:mrow>
+<mml:msubsup>
+<mml:mrow>
+<mml:mi>&#x3b7;</mml:mi>
+</mml:mrow>
+<mml:mrow>
+<mml:mtext>partial</mml:mtext>
+</mml:mrow>
+<mml:mrow>
+<mml:mn>2</mml:mn>
+</mml:mrow>
+</mml:msubsup>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>076</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, while the interaction between robot type and intervention was not significant, indicating consistent patterns of change across robot types, <inline-formula id="inf7">
+<mml:math id="m7">
+<mml:mrow>
+<mml:mi>F</mml:mi>
+<mml:mrow>
+<mml:mo stretchy="false">(</mml:mo>
+<mml:mrow>
+<mml:mn>1,178</mml:mn>
+</mml:mrow>
+<mml:mo stretchy="false">)</mml:mo>
+</mml:mrow>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mn>1.01</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf8">
+<mml:math id="m8">
+<mml:mrow>
+<mml:mi>p</mml:mi>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>316</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>.</p>
+<p>The number of drawn concepts did not differ significantly by robot type, <inline-formula id="inf9">
+<mml:math id="m9">
+<mml:mrow>
+<mml:mi>F</mml:mi>
+<mml:mrow>
+<mml:mo stretchy="false">(</mml:mo>
+<mml:mrow>
+<mml:mn>1,178</mml:mn>
+</mml:mrow>
+<mml:mo stretchy="false">)</mml:mo>
+</mml:mrow>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mn>1.60</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf10">
+<mml:math id="m10">
+<mml:mrow>
+<mml:mi>p</mml:mi>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>208</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf11">
+<mml:math id="m11">
+<mml:mrow>
+<mml:msubsup>
+<mml:mrow>
+<mml:mi>&#x3b7;</mml:mi>
+</mml:mrow>
+<mml:mrow>
+<mml:mtext>partial</mml:mtext>
+</mml:mrow>
+<mml:mrow>
+<mml:mn>2</mml:mn>
+</mml:mrow>
+</mml:msubsup>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>009</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, but the intervention showed a large main effect, <inline-formula id="inf12">
+<mml:math id="m12">
+<mml:mrow>
+<mml:mi>F</mml:mi>
+<mml:mrow>
+<mml:mo stretchy="false">(</mml:mo>
+<mml:mrow>
+<mml:mn>1,178</mml:mn>
+</mml:mrow>
+<mml:mo stretchy="false">)</mml:mo>
+</mml:mrow>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mn>250.05</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf13">
+<mml:math id="m13">
+<mml:mrow>
+<mml:mi>p</mml:mi>
+<mml:mo>&#x3c;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>001</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf14">
+<mml:math id="m14">
+<mml:mrow>
+<mml:msubsup>
+<mml:mrow>
+<mml:mi>&#x3b7;</mml:mi>
+</mml:mrow>
+<mml:mrow>
+<mml:mtext>partial</mml:mtext>
+</mml:mrow>
+<mml:mrow>
+<mml:mn>2</mml:mn>
+</mml:mrow>
+</mml:msubsup>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>584</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, reflecting substantially more drawn concepts after the intervention. This trend persisted uniformly across robot types, as evidenced by a non-significant interaction effect, <inline-formula id="inf15">
+<mml:math id="m15">
+<mml:mrow>
+<mml:mi>F</mml:mi>
+<mml:mrow>
+<mml:mo stretchy="false">(</mml:mo>
+<mml:mrow>
+<mml:mn>1,178</mml:mn>
+</mml:mrow>
+<mml:mo stretchy="false">)</mml:mo>
+</mml:mrow>
+<mml:mo>&#x3c;</mml:mo>
+<mml:mn>0.01</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf16">
+<mml:math id="m16">
+<mml:mrow>
+<mml:mi>p</mml:mi>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>989</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>.</p>
+<p>For positively rated concepts, the results indicated that robot type had no significant effect, <inline-formula id="inf17">
+<mml:math id="m17">
+<mml:mrow>
+<mml:mi>F</mml:mi>
+<mml:mrow>
+<mml:mo stretchy="false">(</mml:mo>
+<mml:mrow>
+<mml:mn>1,178</mml:mn>
+</mml:mrow>
+<mml:mo stretchy="false">)</mml:mo>
+</mml:mrow>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mn>0.54</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf18">
+<mml:math id="m18">
+<mml:mrow>
+<mml:mi>p</mml:mi>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>462</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf19">
+<mml:math id="m19">
+<mml:mrow>
+<mml:msubsup>
+<mml:mrow>
+<mml:mi>&#x3b7;</mml:mi>
+</mml:mrow>
+<mml:mrow>
+<mml:mtext>partial</mml:mtext>
+</mml:mrow>
+<mml:mrow>
+<mml:mn>2</mml:mn>
+</mml:mrow>
+</mml:msubsup>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>003</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, while the intervention exhibited a very large and highly significant effect, <inline-formula id="inf20">
+<mml:math id="m20">
+<mml:mrow>
+<mml:mi>F</mml:mi>
+<mml:mrow>
+<mml:mo stretchy="false">(</mml:mo>
+<mml:mrow>
+<mml:mn>1,178</mml:mn>
+</mml:mrow>
+<mml:mo stretchy="false">)</mml:mo>
+</mml:mrow>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mn>200.33</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf21">
+<mml:math id="m21">
+<mml:mrow>
+<mml:mi>p</mml:mi>
+<mml:mo>&#x3c;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>001</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf22">
+<mml:math id="m22">
+<mml:mrow>
+<mml:msubsup>
+<mml:mrow>
+<mml:mi>&#x3b7;</mml:mi>
+</mml:mrow>
+<mml:mrow>
+<mml:mtext>partial</mml:mtext>
+</mml:mrow>
+<mml:mrow>
+<mml:mn>2</mml:mn>
+</mml:mrow>
+</mml:msubsup>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>530</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>. The interaction between robot type and intervention remained non-significant, <inline-formula id="inf23">
+<mml:math id="m23">
+<mml:mrow>
+<mml:mi>F</mml:mi>
+<mml:mrow>
+<mml:mo stretchy="false">(</mml:mo>
+<mml:mrow>
+<mml:mn>1,178</mml:mn>
+</mml:mrow>
+<mml:mo stretchy="false">)</mml:mo>
+</mml:mrow>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mn>0.00</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, <inline-formula id="inf24">
+<mml:math id="m24">
+<mml:mrow>
+<mml:mi>p</mml:mi>
+<mml:mo>&#x3d;</mml:mo>
+<mml:mo>.</mml:mo>
+<mml:mn>959</mml:mn>
+</mml:mrow>
+</mml:math>
+</inline-formula>, suggesting that the changes over time occurred similarly regardless of robot type.</p>
+<p>In the next section, we analyze the underlying argument structures to examine which reasons participants emphasized when revising their CAMs. Given the sequential exposure (rigid-robot scenario first, soft counterpart second) and the instruction to revise an previously drawn CAM, the qualitative patterns reported below are interpreted as contrastive emphases elicited under explicit comparison, rather than as exhaustive belief representations about each robot embodiment in isolation.</p>
+</sec>
+<sec id="s3-2">
+<label>3.2</label>
+<title>Qualitative analyses of perceived risks and benefits</title>
+<p>To analyze participants&#x2019; perceptions of rigid and soft SAR and RR, we conducted a three-step qualitative analysis, which should be interpreted as structured aggregations of expressed contrastive arguments. First, we systematically categorized the CAM data using a primarily deductive qualitative content analysis, involving six independent raters, to map participants&#x2019; conceptualizations before and after the intervention, focusing on key categories (e.g., perceived safety), as visualized in a stacked bar chart (<xref ref-type="fig" rid="F7">Figure 7</xref>). Second, we applied LLMs to inductively analyze argument structures, highlighting shared and distinct perceptions of rigid and soft robots, depicted in a bubble graph (<xref ref-type="fig" rid="F8">Figure 8</xref>). Finally, we examined the frequency and distribution of argument structures within the identified categories to uncover shifts in participants&#x2019; evaluations, summarized through detailed code-specific visualizations based on a mainly inductive driven qualitative content analysis (<xref ref-type="fig" rid="F9">Figures 9&#x2013;12</xref>). The coding guidelines for the two qualitative content analyses are accessible in the <xref ref-type="sec" rid="s12">Supplementary Material</xref>. A reproducible script, including the exact prompting of the LLMs, is available in the &#x201c;main study - LLM&#x201d; folder on GitHub.</p>
+<fig id="F7" position="float">
+<label>FIGURE 7</label>
+<caption>
+<p>Stacked bar chart of drawn rigid and soft concepts by robot type presents a breakdown of participants&#x2019; average number of drawn concepts per CAM, categorized by rigid (&#x201c;constant&#x201d;) and soft (&#x201c;new&#x201d;) concepts. The stacked bars highlight how participants retained existing ideas (rigid) or introduced new concepts (soft) in response to the intervention.</p>
+</caption>
+<graphic xlink:href="frobt-13-1741946-g007.tif">
+<alt-text content-type="machine-generated">Bar chart comparing average number of concepts drawn per CAM for different robot types (RR or SAR) across categories such as safety, technological possibilities, risk, human-robot interaction, anthropomorphism, and technological limitation. Bars are split into rigid (pre-intervention, black) and soft (post-intervention, gray) concept types, with values labeled inside each segment. RR consistently shows higher rigid values for safety, while SAR shows relatively balanced values across most categories. Chart supports comparison of conceptual shifts before and after intervention across robot types and concept categories.</alt-text>
+</graphic>
+</fig>
+<fig id="F8" position="float">
+<label>FIGURE 8</label>
+<caption>
+<p>Bubble graph of overall argument structures presents a graphical synthesis of the most significant qualitative arguments, distinguishing between rigid and soft robots, alongside definitions for the coding guideline categories (see for detail &#x201c;4. Coding guidelines categories&#x201d; in the <xref ref-type="sec" rid="s12">Supplementary Material</xref>). Shared perceptions are represented by overlapping bullet points, while differences in argument structures are highlighted in italics.</p>
+</caption>
+<graphic xlink:href="frobt-13-1741946-g008.tif">
+<alt-text content-type="machine-generated">Comparison table diagram showing rigid versus soft robots across eight evaluation criteria: safety, risk, technological possibility, technological limitation, human-robot interaction positive, human-robot interaction negative, positive anthropomorphism, and negative anthropomorphism. Each criterion includes a definition and bullet-pointed arguments for both robot types, with some terms italicized for emphasis.</alt-text>
+</graphic>
+</fig>
+<fig id="F9" position="float">
+<label>FIGURE 9</label>
+<caption>
+<p>Argument frequencies on perceived risks and safety of rigid and soft SAR depicts key arguments related to the perceived risks and safety. Argument frequencies highlight how often a single argument (code) was discovered within the respective category. Detailed coding guidelines and descriptions of individual codes are available in &#x201c;5. Coding guidelines codes (within categories)&#x201d; in the <xref ref-type="sec" rid="s12">Supplementary Material</xref>.</p>
+</caption>
+<graphic xlink:href="frobt-13-1741946-g009.tif">
+<alt-text content-type="machine-generated">Bar chart graphic comparing perceived risks and perceived safety of socially assistive robots before (rigid, black) and after (soft, gray) intervention. Perceived risks include potential physical harm, technical issues, lack of regulations, data security, and environmental vulnerabilities, with notable changes in technical issues and material safety representation. Chart type is horizontal bar with frequencies shown for each concept type for both pre- and post-intervention groups.</alt-text>
+</graphic>
+</fig>
+<sec id="s3-2-1">
+<label>3.2.1</label>
+<title>Systematic categorization of key categories</title>
+<p>In the first step of the qualitative analysis, we systematically coded all CAM data to map participants&#x2019; conceptualizations of rigid and soft SAR and RR across core categories such as &#x201c;safety&#x201d;, &#x201c;risk&#x201d;, &#x201c;trust&#x201d;, &#x201c;mistrust&#x201d;, &#x201c;human-robot interaction positive&#x201d;, &#x201c;human-robot interaction negative&#x201d;, &#x201c;social impact positive&#x201d;, &#x201c;social impact negative&#x201d;. Visualizing the frequencies of these categories as a stacked bar chart (<xref ref-type="fig" rid="F7">Figure 7</xref>) revealed category-specific differences between rigid and soft RR and SAR. For example, the perceived safety (SA) category was most important for the RR, where on average 1.4 concepts were drawn. Further, the perceived risks (R) were more important for the RR and participants mentioned more technological possibilities. In contrast for the SAR, categories regarding the perceived positive and negative Human-Robot-Interaction (HRIP, respectively HRIN) and perceived negative anthropomorphism (AN) were more frequently mentioned in comparison to the RR. Additionally, for SAR more concepts after the intervention (soft) were added for the SA and positive anthropomorphism (AP) categories, underscoring their relevance to this type of robot.</p>
+</sec>
+<sec id="s3-2-2">
+<label>3.2.2</label>
+<title>Overall argument structures</title>
+<p>The findings illustrated in <xref ref-type="fig" rid="F7">Figure 7</xref> highlight participants&#x2019; context-dependent evaluations of SAR and RR. While some categories overlap, significant distinctions are evident. SARs were primarily evaluated in terms of their social interaction capabilities, RRs maintained stable associations with safety and operational reliability, highlighting the distinct roles and perceived risks and benefits of these robot types across different scenarios. This motivated us to apply LLMs, to comprehensively synthesize the full dataset and to identify key argument structures across the most relevant categories, as visualized in <xref ref-type="fig" rid="F8">Figure 8</xref>, whereby different overarching themes as well as critical distinctions between the two robot types emerged. A deeper examination of participants&#x2019; comments revealed their underlying argument structures. In participants&#x2019; pre-intervention CAMs, rigid robots were described as technologically advanced and precise but are often criticized for lacking emotional engagement and physical safety. For example, one participant (P3) observed that &#x201c;soft robots may not be as precise as other rescue robots or humans, which is a disadvantage.&#x201d; In contrast, in their post-intervention CAMs, participants described soft robots as safer in direct human&#x2013;robot interactions and emphasized adaptability and closer human connections. At the same time, concerns about over-dependence, emotional vulnerability, and environmental robustness persist (see in detail <xref ref-type="fig" rid="F9">Figure 9</xref>). Regarding the perceived safety, one participant (P4) noted that &#x201c;soft robots pose only a minimal risk to the victims due to their flexibility&#x201d;, which might be an advantage during search and rescue missions. For soft SAR on the other hand, some participants expressed the fear that soft robots might lead to &#x201c;emotional dependency&#x201d;, which could result in a loss of social contact and social skills.</p>
+</sec>
+<sec id="s3-2-3">
+<label>3.2.3</label>
+<title>Category-specific argument frequencies and structures</title>
+<p>The findings in <xref ref-type="fig" rid="F8">Figure 8</xref> highlight the nuanced and context-specific perceptions of robot types, which is further explored in the following category specific analysis for the categories perceived safety and risks, as well as the perceived positive and negative human-robot-interaction. To better understand these perceptions, we used LLMs to (a) inductively code the data within each category and (b) produce a context-sensitive summary of participants&#x2019; evaluations. This method also considered the frequency of single arguments as an indicator of their relative importance, alongside the developed code descriptions and the marked text passages identified in step (a). The analysis reveals key distinctions and overlaps in argument structures, helping us uncover the factors that shape perceptions within each category. Additionally, to visually represent the distribution and frequency of arguments, we created code-specific visualizations (see <xref ref-type="fig" rid="F9">Figures 9</xref>&#x2013;<xref ref-type="fig" rid="F12">12</xref>), facilitating a clearer comparison of participants&#x2019; evaluations for rigid and soft robots across perceived positive and negative aspects of risks and safety concerns and human-robot interactions. In the subsequent sections, we explain the specific argument structures for each category&#x2014;perceived safety, risks, and human-robot interaction&#x2014;separately for SAR and RR, with detailed descriptions provided below the respective figures.</p>
+<fig id="F10" position="float">
+<label>FIGURE 10</label>
+<caption>
+<p>Argument frequencies on perceived risks and safety of rigid and soft RR depicts key arguments related to the perceived risks and safety.</p>
+</caption>
+<graphic xlink:href="frobt-13-1741946-g010.tif">
+<alt-text content-type="machine-generated">Bar chart comparing perceived risks and perceived safety of rescue robots, grouped by frequency for rigid (black, pre-intervention) and soft (grey, post-intervention) concept types, with specific categories on each side for detailed comparison.</alt-text>
+</graphic>
+</fig>
+<fig id="F11" position="float">
+<label>FIGURE 11</label>
+<caption>
+<p>Argument frequencies on perceived positive and negative human-robot interaction of rigid and soft SAR illustrates key arguments regarding both the benefits and challenges associated with human-robot interaction.</p>
+</caption>
+<graphic xlink:href="frobt-13-1741946-g011.tif">
+<alt-text content-type="machine-generated">Bar chart titled &#x22;Socially Assistive Robot&#x22; compares perceived negative and positive human-robot interactions. Negative perceptions like &#x22;Lack of Humanity&#x22; and &#x22;Loneliness Risk&#x22; are more frequent in rigid (pre-intervention) than soft (post-intervention) conditions; positive aspects such as &#x22;Emotional Support and Social Interaction&#x22; and &#x22;Target Demographic&#x22; increase in frequency post-intervention, shown by black and gray bars representing rigid and soft concept types, respectively.</alt-text>
+</graphic>
+</fig>
+<fig id="F12" position="float">
+<label>FIGURE 12</label>
+<caption>
+<p>Argument frequencies on perceived positive and negative human-robot interaction of rigid and soft RR illustrates key arguments regarding both the benefits and challenges associated with human-robot interaction.</p>
+</caption>
+<graphic xlink:href="frobt-13-1741946-g012.tif">
+<alt-text content-type="machine-generated">Bar chart comparing perceived negative and positive human-robot interaction concepts for rescue robots, divided by rigid (pre-intervention, black) and soft (post-intervention, gray) responses. Negative concepts&#x2014;fear, reliance and trust issues, emotional coldness, and lack of emotional understanding&#x2014;are more frequent before intervention. Positive concepts&#x2014;sustained performance, collaborative support, and emotional resilience&#x2014;increase post-intervention. Frequency is shown on the x-axis, concept type on the y-axis. Chart demonstrates a shift from negative to positive perceptions after intervention.</alt-text>
+</graphic>
+</fig>
+<sec id="s3-2-3-1">
+<label>3.2.3.1</label>
+<title>Perceived safety and risks</title>
+<p>In the following paragraph we outline the safety and risk concerns for SAR and RR. Based on this, we derived design recommendations in the discussion (see <xref ref-type="table" rid="T1">Table 1</xref>).</p>
+<p>A primary concern as shown in <xref ref-type="fig" rid="F9">Figure 9</xref> regarding the perceived risks is the potential for physical harm due to rigid and soft robots, with participants expressing concerns about malfunctioning robots causing unintended reactions or injuries. Technical issues, such as malfunctions and glitches, are also a significant concern particularly for rigid robots, which are seen as more prone to errors and accidents. The risk of data security breaches is another prominent concern, primarily associated with rigid robots, as participants worry about the potential for data losses and misuse. In contrast, soft robots are perceived as more vulnerable to technical problems due to their limited technical abilities which could lead to helplessness in case of failures. Overall, the findings highlight the importance of data security, mitigating technical issues and taking concerns including the prevention of unintended reactions or injuries seriously to ensure the safe and reliable integration of socially assistive robots into human environments.</p>
+<p>When assessing the perceived safety of SAR, participants frequently referred to material composition, with most such references emerging after the soft-robot intervention and linking safety explicitly to material softness. Participants frequently described softer materials as potentially reducing the risk of injury during interactions or accidents. This pattern is consistent with the information provided in the soft-robot scenario and therefore likely reflects participants&#x2019; incorporation of scenario content rather than an emergent, independent association (see Supplemental Data). This perception of material safety was closely linked to the reliability of both rigid and soft robots, which were frequently characterized as dependable systems capable of continuous operation, rapid emergency responses, and precise decision-making. Furthermore, the objectivity of robots, attributed to their lack of emotional bias, was identified as a significant advantage, particularly in contexts requiring impartial decision-making. Operational efficiency emerged as a notable strength of rigid and soft robots, given their ability to perform tasks with greater speed and precision. Overall, the findings underscore that the perceived safety benefits of SAR&#x2014;particularly soft robots&#x2014;stem from their reliability, impartiality, and physical safety, which help foster trust and encourage broader adoption across various applications.</p>
+<p>Regarding the perceived risks of RR, durability, and material defects are key concerns for soft robots, with participants frequently emphasizing their fragility and vulnerability to damage in unpredictable environments as shown in <xref ref-type="fig" rid="F10">Figure 10</xref>. Conversely, rigid robots are more often associated with technical issues, potential misuse, potential physical harm during rescue missions, and broader concerns such as developmental errors. Both types of robots raise concerns about accuracy, particularly the risk of imprecision or performance limitations under extreme conditions. This underscores the need for robust mitigation strategies to ensure their reliable deployment in rescue scenarios.</p>
+<p>The primary benefit of rescue robots regarding their perceived safety lies in their operational efficiency, allowing for improved performance, reduced response times, and safer interventions that minimize risks for both victims and rescuers. Reliability was also emphasized, with participants valuing consistent performance, precise control, and dependable operation under hazardous conditions. Physical capabilities, such as the ability to lift heavy objects, navigate challenging terrains, and perform tasks beyond human limitations, were highlighted as critical attributes. Accessibility, particularly in confined or hard-to-reach spaces, further enhanced their perceived utility and safety. While rigid robots were noted for their strength and reliability, soft robots were appreciated for their adaptability, flexibility, and reduced risk of causing injury during rescue operations. Additionally, their ability to deliver goods and access remote locations was identified as a key benefit. Overall, the perceived safety of rescue robots is strongly associated with their capacity to operate effectively in hazardous environments, safeguard human lives, and maintain reliable and efficient performance during rescue operations.</p>
+</sec>
+<sec id="s3-2-3-2">
+<label>3.2.3.2</label>
+<title>Perceived positive and negative human-robot-interaction</title>
+<p>The following paragraph outlines the perceived positive and negative human-robot-interaction for the SAR and RR. Based on this, we also derived design recommendations in the discussion (see <xref ref-type="table" rid="T1">Table 1</xref>).</p>
+<p>A key concern of the perceived risks of human-robot interaction with SARs is the perceived lack of humanity in human-robot interaction (see <xref ref-type="fig" rid="F11">Figure 11</xref>). Participants emphasized the irreplaceable value of human empathy and authentic interactions, especially with rigid robots. This concern is closely linked to the risk of emotional dependence, which participants identified as a significant issue especially for soft SARs, raising fears of individuals forming strong, potentially unhealthy attachments. Additionally, apprehensions about superficial interactions, loneliness, deceptive behaviors, and the potential for unhealthy relationships highlight the complexity of emotional dynamics in human-robot interaction. Rigid robots were perceived as more intimidating and potentially fear-inducing, with a lack of emotional understanding, while soft robots sparked concerns about emotional dependency and trustworthiness. Technical knowledge and competence were also emphasized, particularly for rigid robots, as essential for safe and effective use. Overall, the findings indicate that the successful integration of socially assistive robots requires balancing emotional understanding and empathy to address risks like emotional dependency and the lack of humanity, which could hinder acceptance and effectiveness.</p>
+<p>The perceived benefits in human-robot interaction are diverse, with participants emphasizing SARs&#x2019; potential to provide emotional support and foster social interaction, particularly for individuals experiencing loneliness or isolation. Robots were noted for their ability to enhance engagement, offer companionship, help in therapeutic settings and address social isolation, making them particularly valuable for socially isolated individuals, older adults, and those with special needs or learning difficulties. Additionally, participants highlighted the capacity of robots to improve efficiency, and support individuals with depression by providing consistent attention and care. Due to their soft haptics, soft robots were perceived as offering unique advantages, such as their capacity to foster emotional attachment and simulate a realistic &#x201c;companion&#x201d;, contributing to therapeutic outcomes. Features like soft materials and tactile interactions were seen as improving acceptance and comfort, enhancing the overall experience of human-robot interaction. Overall, the benefits of socially assistive robots lie in their ability to deliver individualized attention, emotional support, and patience, with soft robots uniquely positioned to facilitate more natural and empathetic interactions.</p>
+<p>In comparison to the SAR less arguments were mentioned (compare <xref ref-type="fig" rid="F11">Figures 11</xref>, <xref ref-type="fig" rid="F12">12</xref>). In the context of human-robot interaction for RR, negative perceptions were largely influenced by fear of the robots, concerns about their reliance and trustworthiness, and the perceived lack of emotional understanding. The most significant apprehensions centered around the fear and discomfort caused by emotionally detached robots, with participants emphasizing the critical need for emotional understanding and empathy in rescue scenarios. This concern was particularly pronounced for rigid robots, which were often described as emotionally cold, lacking humanity, and incapable of recognizing or responding to distress. These limitations were seen as significant barriers to their effectiveness in providing emotional support during emergencies. In contrast, such concerns were only rarely associated with soft robots. Overall, the findings highlight the need to address emotional and social dimensions in the design of rescue robots, with soft robots offering promising potential to better meet these requirements.</p>
+<p>In the context of positive perceptions of human-robot interaction for rescue robots, participants provided only a few arguments. Both rigid and soft robots were recognized for their potential to offer collaborative support, enhancing human capabilities through partnership rather than replacement. Sustained performance also emerged as a key consideration, highlighting the importance of maintaining physical and operational endurance during extended rescue missions. Notably, the findings suggest that soft robots, with their potential to foster collaborative support, ensure sustained performance, and provide emotional reassurance, may offer a more comprehensive and effective solution in rescue operations, benefiting both victims and rescue teams.</p>
+</sec>
+</sec>
+</sec>
+<sec id="s3-3">
+<label>3.3</label>
+<title>Exploratory analysis of gender differences in perceived risks and benefits of human-robot interaction for SAR</title>
+<p>In this exploratory analysis, because of limited sample size, we aimed to illustrate the capability of our methodology to identify only gender-related differences in perceptions of human-robot interaction. To demonstrate this approach, we focused on highlighting key differences between participants identifying as men and women respectively in their perceptions of the positive and negative aspects of human-robot interaction as an exemplary case.</p>
+<p>For example, for human-robot-interaction, both genders value the utility of SARs in providing emotional support, individualized care, and cognitive assistance, particularly for older or socially isolated individuals. Shared emphasis is placed on features like haptics and soft materials for fostering acceptance and the robot&#x2019;s patience, which is deemed critical in tasks such as dementia care. However, women prioritized emotional connection and companionship, framing robots as potential alternatives to pets and focusing on reducing shame and supporting &#x201c;touch-starved&#x201d; individuals. In contrast, men emphasized natural interactions and functional utility, such as overcoming linguistic barriers, enhancing therapeutic applications, and improving social competence. For risks, both genders expressed concerns about emotional dependence and the inability of robots to replace meaningful human interactions. Women highlighted the emotional impacts of robot failures and diverse comfort levels with physical and emotional engagement. Men, however, focused more on ethical concerns, such as deception, the superficiality of robot interactions, and potential degradation of human social behavior due to dependency.</p>
+</sec>
+</sec>
+<sec sec-type="discussion" id="s4">
+<label>4</label>
+<title>Discussion</title>
+<p>This study systematically evaluated participants&#x2019; contrastive evaluations (pre-intervention vs. post-revision) of rigid and soft SARs and RRs through quantitative and qualitative analyses. In doing so, we highlighted key differences in the emotional evaluation and the argument structures behind these two application cases. Quantitative results revealed a significantly more positive evaluation and an increased number of drawn concepts after participants revised their previously drawn CAM after being informed about the potential risks and benefits of transitioning from rigid to soft robots. Qualitative findings disentangled the argument structures participants emphasized when revising their CAMs separately for the two types of robots and revealed key distinctions in how participants conceptualized the perceived risks and benefits of rigid and soft SARs and RRs. To achieve this, a three-step qualitative analysis was conducted. First, the CAM data were systematically categorized through a primarily deductive qualitative content analysis, mapping participants&#x2019; conceptualizations before and after the intervention across core categories such as perceived safety and human-robot interaction. Second, LLMs were employed for an analysis of argument structures, identifying shared and unique perceptions of the robot types, which were visualized in a bubble graph. Finally, shifts in argument structures and their frequencies within categories were examined by applying an inductive qualitative content analysis. These findings were visually represented and summarized in a data-driven manner, focusing on the categories of perceived risks and safety as well as positive and negative aspects of human-robot interaction. Together, these analyses provide a structured summary of revision-based, contrastive evaluations of participants&#x2019; belief structures regarding the perceived risks and benefits of rigid versus soft SARs and RRs.</p>
+<p>Furthermore, our study design enables the investigation of (soft) robots still in development, thereby allowing for the collection of larger sample sizes compared to traditional laboratory studies (<xref ref-type="bibr" rid="B71">Whelan et al., 2018</xref>). Such studies will enable the further investigation of perceived risks and benefits across various applications of both soft and rigid robots and enhance existing design evaluation tools, such as Exoscore, by uncovering factors that predefined questionnaires might overlook (<xref ref-type="bibr" rid="B56">Shore et al., 2020</xref>). However, it is important to note that these online studies should be complemented by in-lab studies, which remain crucial for validating findings and exploring specific interactions in controlled settings, especially when fully developed prototypes are available or when more in-depth qualitative data is needed. However, due to the scenario-based approach, our study design enables early identification of societal concerns, which are crucial knowledge during the robotic design process (<xref ref-type="bibr" rid="B53">&#x160;abanovi&#x107; et al., 2023</xref>). By addressing these concerns early in the development, rapid adjustments in robot design might be possible. Such an approach can avoid a misalignment of opinion between end users and developers on desirable design features (<xref ref-type="bibr" rid="B7">Bradwell et al., 2019</xref>). Further, by including different age groups, design preferences between older and younger people can be discovered (<xref ref-type="bibr" rid="B10">Chu et al., 2019</xref>; <xref ref-type="bibr" rid="B43">Piezzo and Suzuki, 2017</xref>). In <xref ref-type="table" rid="T1">Table 1</xref>, we present participant-derived considerations, translating these contrastively elicited considerations into design recommendations for early development, which could bridge the gap between user perceptions and actionable design criteria, enabling developers to address specific concerns effectively.</p>
+<sec id="s4-1">
+<label>4.1</label>
+<title>Limitations</title>
+<p>A central limitation of this study concerns the interpretation of changes between pre- and post-intervention CAMs. Because we employed a single-group pre&#x2013;post design, the observed differences between the &#x201c;rigid&#x201d; and &#x201c;soft&#x201d; conditions cannot be taken as causal evidence that particular benefits are intrinsic features of soft robotics. These differences may instead reflect a combination of (a) intrinsic properties of soft robotics that participants find appealing, (b) information artifacts, such as participants echoing scenario content, and (c) temporal effects, including elaboration over time independent of robot type. This revision-based procedure also raises established methodological considerations (<xref ref-type="bibr" rid="B3">Baxter et al., 2016</xref>; <xref ref-type="bibr" rid="B4">Bethel and Murphy, 2010</xref>; <xref ref-type="bibr" rid="B20">Hoffman and Zhao, 2020</xref>; <xref ref-type="bibr" rid="B51">Rosenthal-von der P&#xfc;tten et al., 2025</xref>): First, instructing participants to revise a previously drawn CAM can introduce demand characteristics, insofar as visible modification becomes a salient cue of task compliance. Second, the measurement activity itself (drawing and revising CAMs) may induce reactive measurement effects and repeated-measurement elaboration (learning/habituation), such that participants generate additional concepts or adjust valence partly due to reflection and the structure of the task. Third, presenting the rigid scenario first may create an anchoring point for subsequent revisions, such that post-revision content reflects anchoring-and-adjustment around an initial representation rather than anew belief construction. As such observed quantitative shifts (e.g., higher mean valence and increased number of drawn concept after post-revision) cannot be interpreted as standalone psychological effects of robot embodiment, they may be amplified by repeated measurement, compliance cues, and elaboration over time.</p>
+<p>These design related limitations interact closely with the provided scenario texts, making the framing a second, closely related limitation: This is particularly the case for SAR, whereby we unintentionally emphasized special-needs applications, which may have skewed participants&#x2019; evaluations toward more positive assessments. While the within-subject comparison reduces between-participant variance by having the same participants complete both conditions, this only partially mitigates the limitation, as it does not remove scenario- or order-dependence, and fixed sequential exposure can still introduce, for example, anchoring, or elaboration effects. Beyond these interpretive (internal-validity) constraints, the study also has scope-related limitations that affect generalizability: Future research should explore a broader range of scenarios to capture diverse contexts of application. Another limitation stems from the study&#x2019;s limited geographical scope, as the sample was drawn exclusively from Germany. This constraint restricts the ability to generalize findings to other cultural contexts. Extending the study to a multi-country design, considering diverse cultural and value systems, would help to broaden the applicability of the results and offer insights into how different cultural contexts influence the perception of soft robots.</p>
+<p>Several design refinements could increase confidence in which effects extend beyond the within-subject contrastive procedure: (i) counterbalancing/rotating the order of the presented rigid, soft robot embodiment to quantify carryover, learning, or novelty effects, (ii) instructing participants to construct the second CAM from scratch (followed by an optional comparison step) to reduce anchoring (explicit comparison), (iii) adding a between-subjects CAM condition (rigid-only vs. soft-only) as a robustness check to isolate differences that persist without explicit comparison.</p>
+</sec>
+<sec id="s4-2">
+<label>4.2</label>
+<title>Conclusion</title>
+<p>Involving laypersons in the early phases of robot design provides valuable insights into everyday reasoning, enabling the identification of social, ethical, and practical concerns that may otherwise remain unnoticed during purely technical development. The present study demonstrates how our intervention-based methodology, combining Cognitive-Affective Mapping with quantitative and LLM-supported qualitative analyses, offers a systematic and scalable approach for eliciting and structuring such user perspectives. By organizing perceptions into key categories&#x2014;such as perceived risks, safety, trust, and human&#x2013;robot interaction dynamics&#x2014;this approach facilitates the integration of user-centered feedback into early design iterations, fostering robotic systems that are both functionally robust and socially acceptable (<xref ref-type="bibr" rid="B44">Pinskier and Howard, 2022</xref>; <xref ref-type="bibr" rid="B58">Stella and Hughes, 2023</xref>). Recognizing the complexity and ethical implications of deploying robots in human-centered and safety-critical domains such as socially assistive and search-and-rescue robotics (<xref ref-type="bibr" rid="B9">Chitikena et al., 2023</xref>; <xref ref-type="bibr" rid="B70">Ward et al., 2014</xref>), our study highlights the potential of early, low-cost, and scalable engagement methods for responsible innovation. By identifying and systematically analyzing the contrastive argument structures underlying public perceptions, developers and policymakers can proactively address user concerns, reduce misalignments between societal expectations and technological design, and ultimately promote a more transparent and ethically grounded development of soft robotic systems.</p>
+</sec>
+</sec>
+</body>
+<back>
+<sec sec-type="data-availability" id="s5">
+<title>Data availability statement</title>
+<p>All data, code, and materials used in the analysis are available on GitHub (<ext-link ext-link-type="uri" xlink:href="https://github.com/FennStatistics/Article_SoftRobotIntervention">https://github.com/FennStatistics/Article_SoftRobotIntervention</ext-link>). Software to create the Cognitive-Affective Maps can be accessed via <ext-link ext-link-type="uri" xlink:href="https://drawyourminds.de/">https://drawyourminds.de/</ext-link>.</p>
+</sec>
+<sec sec-type="ethics-statement" id="s6">
+<title>Ethics statement</title>
+<p>Ethical approval was not required for this study because it involved no deception, manipulation, or collection of sensitive personal data. The studies were conducted in accordance with the local legislation and institutional requirements. The participants provided their written informed consent to participate in this study.</p>
+</sec>
+<sec sec-type="author-contributions" id="s7">
+<title>Author contributions</title>
+<p>JF: Investigation, Methodology, Software, Writing &#x2013; original draft, Validation, Data curation, Conceptualization. LE: Validation, Investigation, Methodology, Conceptualization, Writing &#x2013; original draft. MG: Writing &#x2013; review and editing, Methodology. IM: Methodology, Writing &#x2013; review and editing. FT: Methodology, Funding acquisition, Writing &#x2013; review and editing. JT: Writing &#x2013; review and editing, Methodology. SL-T: Writing &#x2013; review and editing, Investigation, Methodology, Validation, Conceptualization, Supervision. TS: Writing &#x2013; review and editing, Funding acquisition, Methodology. OM: Funding acquisition, Writing &#x2013; review and editing, Methodology. AK: Validation, Supervision, Methodology, Conceptualization, Investigation, Writing &#x2013; review and editing, Funding acquisition.</p>
+</sec>
+<ack>
+<title>Acknowledgements</title>
+<p>We extend our gratitude to the members of the Cluster of Excellence Living Materials Systems (<italic>liv</italic>MatS) for their invaluable expertise on soft robotics, particularly E. Milana, P. Kappel, and I. Fiorello. Additionally, we sincerely thank all <italic>liv</italic>MatS members who participated in our expert survey on rigid and soft robots. We are especially grateful to our independent coders, including P. S&#xf6;lder, C. Brecht, and L. Kulbe, for their critical contributions in coding the CAM data. Lastly, we thank Neha Munic for identifying age-related differences in the CAM data, which, while not presented here, provide valuable insight for future research.</p>
+</ack>
+<sec sec-type="COI-statement" id="s9">
+<title>Conflict of interest</title>
+<p>The author(s) declared that this work was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+</sec>
+<sec sec-type="ai-statement" id="s10">
+<title>Generative AI statement</title>
+<p>The author(s) declared that generative AI was used in the creation of this manuscript. During the preparation of this work, the authors utilized ChatGPT and other AI-assisted tools to analyze data, generate textual summaries, and check grammar. Specifically, AI models such as Llama-3.1-70B-Instruct and GPT-3.5-Turbo were employed for qualitative content analysis, argument identification, and data visualization. After using these tools, the authors thoroughly reviewed and edited the content to ensure accuracy, coherence, and alignment with the study&#x2019;s objectives. The authors take full responsibility for the final content of the published article.</p>
+<p>Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. If you identify any issues, please contact us.</p>
+</sec>
+<sec sec-type="disclaimer" id="s11">
+<title>Publisher&#x2019;s note</title>
+<p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p>
+</sec>
+<sec sec-type="supplementary-material" id="s12">
+<title>Supplementary material</title>
+<p>The Supplementary Material for this article can be found online at: <ext-link ext-link-type="uri" xlink:href="https://www.frontiersin.org/articles/10.3389/frobt.2026.1741946/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/frobt.2026.1741946/full&#x23;supplementary-material</ext-link>
+</p>
+<supplementary-material xlink:href="Supplementaryfile1.pdf" id="SM1" mimetype="application/pdf" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</sec>
+<ref-list>
+<title>References</title>
+<ref id="B1">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Alici</surname>
+<given-names>G.</given-names>
+</name>
+</person-group> (<year>2018</year>). <article-title>Softer is harder: what differentiates soft robotics from hard robotics?</article-title> <source>MRS Adv.</source> <volume>3</volume>, <fpage>1557</fpage>&#x2013;<lpage>1568</lpage>. <pub-id pub-id-type="doi">10.1557/adv.2018.159</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B2">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Battistuzzi</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Recchiuto</surname>
+<given-names>C. T.</given-names>
+</name>
+<name>
+<surname>Sgorbissa</surname>
+<given-names>A.</given-names>
+</name>
+</person-group> (<year>2021</year>). <article-title>Ethical concerns in rescue robotics: a scoping review</article-title>. <source>Ethics Inf. Technol.</source> <volume>23</volume>, <fpage>863</fpage>&#x2013;<lpage>875</lpage>. <pub-id pub-id-type="doi">10.1007/s10676-021-09603-0</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B3">
+<mixed-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>Baxter</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Kennedy</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Senft</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Lemaignan</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Belpaeme</surname>
+<given-names>T.</given-names>
+</name>
+</person-group> (<year>2016</year>). &#x201c;<article-title>From characterising three years of HRI to methodology and reporting recommendations</article-title>,&#x201d; in <conf-name>11th ACM/IEEE International Conference on Human-Robot Interaction (HRI)</conf-name>, <conf-loc>Christchurch, New Zealand</conf-loc>, <conf-date>07-10 March 2016</conf-date> (<publisher-name>IEEE</publisher-name>), <fpage>391</fpage>&#x2013;<lpage>398</lpage>.</mixed-citation>
+</ref>
+<ref id="B4">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bethel</surname>
+<given-names>C. L.</given-names>
+</name>
+<name>
+<surname>Murphy</surname>
+<given-names>R. R.</given-names>
+</name>
+</person-group> (<year>2010</year>). <article-title>Review of human studies methods in HRI and recommendations</article-title>. <source>Int. J. Soc. Robotics</source> <volume>2</volume>, <fpage>347</fpage>&#x2013;<lpage>359</lpage>. <pub-id pub-id-type="doi">10.1007/s12369-010-0064-9</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B5">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bishop</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>van Maris</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Dogramadzi</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Zook</surname>
+<given-names>N.</given-names>
+</name>
+</person-group> (<year>2019</year>). <article-title>Social robots: the influence of human and robot characteristics on acceptance</article-title>. <source>J. Behav. Robotics</source> <volume>10</volume>, <fpage>346</fpage>&#x2013;<lpage>358</lpage>. <pub-id pub-id-type="doi">10.1515/pjbr-2019-0028</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B6">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Boada</surname>
+<given-names>J. P.</given-names>
+</name>
+<name>
+<surname>Maestre</surname>
+<given-names>B. R.</given-names>
+</name>
+<name>
+<surname>Gen&#xed;s</surname>
+<given-names>C. T.</given-names>
+</name>
+</person-group> (<year>2021</year>). <article-title>The ethical issues of social assistive robotics: a critical literature review</article-title>. <source>Technol. Soc.</source> <volume>67</volume>, <fpage>101726</fpage>. <pub-id pub-id-type="doi">10.1016/j.techsoc.2021.101726</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B7">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bradwell</surname>
+<given-names>H. L.</given-names>
+</name>
+<name>
+<surname>Edwards</surname>
+<given-names>K. J.</given-names>
+</name>
+<name>
+<surname>Winnington</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Thill</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Jones</surname>
+<given-names>R. B.</given-names>
+</name>
+</person-group> (<year>2019</year>). <article-title>Companion robots for older people: importance of user-centred design demonstrated through observations and focus groups comparing preferences of older people and roboticists in south west England</article-title>. <source>BMJ Open</source> <volume>9</volume>, <fpage>e032468</fpage>. <pub-id pub-id-type="doi">10.1136/bmjopen-2019-032468</pub-id>
+<pub-id pub-id-type="pmid">31558461</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B8">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Br&#xf6;hl</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Nelles</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Brandl</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Mertens</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Nitsch</surname>
+<given-names>V.</given-names>
+</name>
+</person-group> (<year>2019</year>). <article-title>Human&#x2013;robot collaboration acceptance model: development and comparison for Germany, Japan, China and the USA</article-title>. <source>Int. J. Soc. Robotics</source> <volume>11</volume>, <fpage>709</fpage>&#x2013;<lpage>726</lpage>. <pub-id pub-id-type="doi">10.1007/s12369-019-00593-0</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B9">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Chitikena</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Sanfilippo</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Ma</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2023</year>). <article-title>Robotics in search and rescue (SAR) operations: an ethical and design perspective framework for response phase</article-title>. <source>Appl. Sci.</source> <volume>13</volume>, <fpage>1800</fpage>. <pub-id pub-id-type="doi">10.3390/app13031800</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B10">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Chu</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Chen</surname>
+<given-names>H.-W.</given-names>
+</name>
+<name>
+<surname>Cheng</surname>
+<given-names>P.-Y.</given-names>
+</name>
+<name>
+<surname>Ho</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Weng</surname>
+<given-names>I.-T.</given-names>
+</name>
+<name>
+<surname>Yang</surname>
+<given-names>P.-L.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2019</year>). <article-title>Identifying features that enhance older adults&#x2019; acceptance of robots: a mixed methods study</article-title>. <source>Gerontology</source> <volume>65</volume>, <fpage>441</fpage>&#x2013;<lpage>450</lpage>. <pub-id pub-id-type="doi">10.1159/000494881</pub-id>
+<pub-id pub-id-type="pmid">30844813</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B11">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>David</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Th&#xe9;rouanne</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Milhabet</surname>
+<given-names>I.</given-names>
+</name>
+</person-group> (<year>2022</year>). <article-title>The acceptability of social robots: a scoping review of the recent literature</article-title>. <source>Comput. Hum. Behav.</source> <volume>137</volume>, <fpage>107419</fpage>. <pub-id pub-id-type="doi">10.1016/j.chb.2022.107419</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B12">
+<mixed-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>der Maur</surname>
+<given-names>P. A.</given-names>
+</name>
+<name>
+<surname>Djambazi</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>Haberth&#xfc;r</surname>
+<given-names>Y.</given-names>
+</name>
+<name>
+<surname>H&#xf6;rmann</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>K&#xfc;bler</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Lustenberger</surname>
+<given-names>M.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2021</year>). &#x201c;<article-title>RoBoa: construction and evaluation of a steerable Vine robot for search and rescue applications</article-title>,&#x201d; in <conf-name>2021 IEEE 4th International Conference on Soft Robotics (RoboSoft)</conf-name>, <conf-loc>New Haven, CT, USA</conf-loc>, <conf-date>12-16 April 2021</conf-date> (<publisher-name>IEEE</publisher-name>), <fpage>15</fpage>&#x2013;<lpage>20</lpage>.</mixed-citation>
+</ref>
+<ref id="B13">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Felding</surname>
+<given-names>S. A.</given-names>
+</name>
+<name>
+<surname>Koh</surname>
+<given-names>W. Q.</given-names>
+</name>
+<name>
+<surname>Teupen</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Budak</surname>
+<given-names>K. B.</given-names>
+</name>
+<name>
+<surname>Laporte Uribe</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Roes</surname>
+<given-names>M.</given-names>
+</name>
+</person-group> (<year>2023</year>). <article-title>A scoping review using the almere model to understand factors facilitating and hindering the acceptance of social robots in nursing homes</article-title>. <source>Int. J. Soc. Robotics</source> <volume>15</volume>, <fpage>1115</fpage>&#x2013;<lpage>1153</lpage>. <pub-id pub-id-type="doi">10.1007/s12369-023-01012-1</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B14">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Fenn</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Helm</surname>
+<given-names>J. F.</given-names>
+</name>
+<name>
+<surname>H&#xf6;fele</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Kulbe</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Ernst</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Kiesel</surname>
+<given-names>A.</given-names>
+</name>
+</person-group> (<year>2023</year>). <article-title>Identifying key-psychological factors influencing the acceptance of yet emerging technologies&#x2013;A multi-method-approach to inform climate policy</article-title>. <source>PLOS Clim.</source> <volume>2</volume>, <fpage>e0000207</fpage>. <pub-id pub-id-type="doi">10.1371/journal.pclm.0000207</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B15">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Fenn</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Gouret</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Gorki</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Reuter</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Gros</surname>
+<given-names>W.</given-names>
+</name>
+<name>
+<surname>H&#xfc;ttner</surname>
+<given-names>P.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2025</year>). <article-title>Cognitive-affective maps extended logic: proposing tools to collect and analyze attitudes and belief systems</article-title>. <source>Behav. Res. Methods</source> <volume>57</volume>, <fpage>174</fpage>. <pub-id pub-id-type="doi">10.3758/s13428-025-02699-y</pub-id>
+<pub-id pub-id-type="pmid">40389773</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B16">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>H&#xe4;m&#xe4;l&#xe4;inen</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Oksanen</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Tavast</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Bhatnagar</surname>
+<given-names>P.</given-names>
+</name>
+</person-group> (<year>2024</year>). <source>LLMCode: a toolkit for AI-assisted qualitative data analysis</source>.</mixed-citation>
+</ref>
+<ref id="B17">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Hedayati</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Bhaduri</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Sumner</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Szafir</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Gross</surname>
+<given-names>M. D.</given-names>
+</name>
+</person-group> (<year>2019</year>). &#x201c;<article-title>HugBot: a soft robot designed to give human-like hugs</article-title>,&#x201d; in <source>Proceedings of the 18th ACM international conference on interaction design and children</source> (<publisher-loc>New York, NY, USA</publisher-loc>: <publisher-name>Association for Computing Machinery</publisher-name>), <fpage>556</fpage>&#x2013;<lpage>561</lpage>. <pub-id pub-id-type="doi">10.1145/3311927.3325332</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B18">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Heerink</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Kr&#xf6;se</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>Evers</surname>
+<given-names>V.</given-names>
+</name>
+<name>
+<surname>Wielinga</surname>
+<given-names>B.</given-names>
+</name>
+</person-group> (<year>2010</year>). <article-title>Assessing acceptance of assistive social agent technology by older adults: the almere model</article-title>. <source>Int. J. Soc. Robotics</source> <volume>2</volume>, <fpage>361</fpage>&#x2013;<lpage>375</lpage>. <pub-id pub-id-type="doi">10.1007/s12369-010-0068-5</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B19">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Henninger</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Shevchenko</surname>
+<given-names>Y.</given-names>
+</name>
+<name>
+<surname>Mertens</surname>
+<given-names>U. K.</given-names>
+</name>
+<name>
+<surname>Kieslich</surname>
+<given-names>P. J.</given-names>
+</name>
+<name>
+<surname>Hilbig</surname>
+<given-names>B. E.</given-names>
+</name>
+</person-group> (<year>2022</year>). <article-title>Lab.js: a free, open, online study builder</article-title>. <source>Behav. Res. Methods</source> <volume>54</volume>, <fpage>556</fpage>&#x2013;<lpage>573</lpage>. <pub-id pub-id-type="doi">10.3758/s13428-019-01283-5</pub-id>
+<pub-id pub-id-type="pmid">34322854</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B20">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Hoffman</surname>
+<given-names>G.</given-names>
+</name>
+<name>
+<surname>Zhao</surname>
+<given-names>X.</given-names>
+</name>
+</person-group> (<year>2020</year>). <article-title>A primer for conducting experiments in human&#x2013;robot interaction</article-title>. <source>J. Hum.-Robot Interact.</source> <volume>10</volume> (<issue>6</issue>), <fpage>1</fpage>&#x2013;<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1145/3412374</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B21">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Homer-Dixon</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Maynard</surname>
+<given-names>J. L.</given-names>
+</name>
+<name>
+<surname>Mildenberger</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Milkoreit</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Mock</surname>
+<given-names>S. J.</given-names>
+</name>
+<name>
+<surname>Quilley</surname>
+<given-names>S.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2013</year>). <article-title>A complex systems approach to the study of ideology: cognitive-affective structures and the dynamics of belief systems</article-title>. <source>J. Soc. Political Psychol.</source> <volume>1</volume>, <fpage>337</fpage>&#x2013;<lpage>363</lpage>. <pub-id pub-id-type="doi">10.5964/jspp.v1i1.36</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B22">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>J&#xf8;rgensen</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2023</year>). &#x201c;<article-title>Comparing how soft robotic tentacles and an equivalent traditional robot are described</article-title>,&#x201d; in <source>Companion of the 2023 ACM/IEEE international conference on human-robot interaction (stockholm Sweden: acm)</source>, <fpage>597</fpage>&#x2013;<lpage>601</lpage>. <pub-id pub-id-type="doi">10.1145/3568294.3580155</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B23">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>J&#xf8;rgensen</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Bojesen</surname>
+<given-names>K. B.</given-names>
+</name>
+<name>
+<surname>Jochum</surname>
+<given-names>E.</given-names>
+</name>
+</person-group> (<year>2022</year>). <article-title>Is a soft robot more &#x201c;natural&#x201d;? Exploring the perception of soft robotics in human&#x2013;robot interaction</article-title>. <source>Int. J. Soc. Robotics</source> <volume>14</volume>, <fpage>95</fpage>&#x2013;<lpage>113</lpage>. <pub-id pub-id-type="doi">10.1007/s12369-021-00761-1</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B24">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Kaplan</surname>
+<given-names>L. R.</given-names>
+</name>
+<name>
+<surname>Farooque</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Sarewitz</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Tomblin</surname>
+<given-names>D.</given-names>
+</name>
+</person-group> (<year>2021</year>). <article-title>Designing participatory technology assessments: a reflexive method for advancing the public role in science policy decision-making</article-title>. <source>Technol. Forecast. Soc. Change</source> <volume>171</volume>, <fpage>120974</fpage>. <pub-id pub-id-type="doi">10.1016/j.techfore.2021.120974</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B25">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Kim</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Laschi</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Trimmer</surname>
+<given-names>B.</given-names>
+</name>
+</person-group> (<year>2013</year>). <article-title>Soft robotics: a bioinspired evolution in robotics</article-title>. <source>Trends Biotechnol.</source> <volume>31</volume>, <fpage>287</fpage>&#x2013;<lpage>294</lpage>. <pub-id pub-id-type="doi">10.1016/j.tibtech.2013.03.002</pub-id>
+<pub-id pub-id-type="pmid">23582470</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B26">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Kluyver</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Ragan-Kelley</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>P&#xe9;rez</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Granger</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>Bussonnier</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Frederic</surname>
+<given-names>J.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2016</year>). &#x201c;<article-title>Jupyter notebooks &#x2013; a publishing format for reproducible computational workflows</article-title>,&#x201d; in <source>20th international conference on electronic publishing</source>. Editors <person-group person-group-type="editor">
+<name>
+<surname>Loizides</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Scmidt</surname>
+<given-names>B.</given-names>
+</name>
+</person-group> (<publisher-loc>Amsterdam, Netherlands</publisher-loc>: <publisher-name>IOS Press</publisher-name>), <fpage>87</fpage>&#x2013;<lpage>90</lpage>. <pub-id pub-id-type="doi">10.3233/978-1-61499-649-1-87</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B27">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Kosow</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Gassner</surname>
+<given-names>R.</given-names>
+</name>
+</person-group> (<year>2008</year>). <source>Methods of future and scenario analysis: overview, assessment, and selection criteria, of DIE studies</source>.</mixed-citation>
+</ref>
+<ref id="B28">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Kuckartz</surname>
+<given-names>U.</given-names>
+</name>
+<name>
+<surname>R&#xe4;diker</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2022</year>). &#x201c;<article-title>Qualitative inhaltsanalyse: Methoden, praxis, computerunterst&#xfc;tzung: grundlagentexte methoden</article-title>,&#x201d; in <source>Grundlagentexte methoden</source>, <volume>5</volume>. <publisher-loc>Weinheim Basel</publisher-loc>: <publisher-name>Beltz Juventa</publisher-name>.</mixed-citation>
+</ref>
+<ref id="B29">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Lange</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>K&#xfc;hn</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Filevich</surname>
+<given-names>E.</given-names>
+</name>
+</person-group> (<year>2015</year>). <article-title>Just another tool for online studies JATOS: an easy solution for setup and management of web servers supporting online studies</article-title>. <source>PLOS ONE</source> <volume>10</volume>, <fpage>1</fpage>&#x2013;<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0130834</pub-id>
+<pub-id pub-id-type="pmid">26114751</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B30">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Langer</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Levy-Tzedek</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2021</year>). <article-title>Emerging roles for social robots in rehabilitation: current directions</article-title>. <source>J. Hum.-Robot Interact.</source> <volume>10</volume> (<issue>30</issue>), <fpage>1</fpage>&#x2013;<lpage>30</lpage>. <pub-id pub-id-type="doi">10.1145/3462256</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B31">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Langer</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Feingold-Polak</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Mueller</surname>
+<given-names>O.</given-names>
+</name>
+<name>
+<surname>Kellmeyer</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Levy-Tzedek</surname>
+<given-names>S.</given-names>
+</name>
+</person-group> (<year>2019</year>). <article-title>Trust in socially assistive robots: considerations for use in rehabilitation</article-title>. <source>Neurosci. &#x26; Biobehav. Rev.</source> <volume>104</volume>, <fpage>231</fpage>&#x2013;<lpage>239</lpage>. <pub-id pub-id-type="doi">10.1016/j.neubiorev.2019.07.014</pub-id>
+<pub-id pub-id-type="pmid">31348963</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B32">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Latikka</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Turja</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Oksanen</surname>
+<given-names>A.</given-names>
+</name>
+</person-group> (<year>2019</year>). <article-title>Self-efficacy and acceptance of robots</article-title>. <source>Comput. Hum. Behav.</source> <volume>93</volume>, <fpage>157</fpage>&#x2013;<lpage>163</lpage>. <pub-id pub-id-type="doi">10.1016/j.chb.2018.12.017</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B33">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Lee</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Kim</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Kim</surname>
+<given-names>Y. J.</given-names>
+</name>
+<name>
+<surname>Hong</surname>
+<given-names>N.</given-names>
+</name>
+<name>
+<surname>Ryu</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Kim</surname>
+<given-names>H. J.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2017</year>). <article-title>Soft robot review</article-title>. <source>Int. J. Control</source> <volume>15</volume>, <fpage>3</fpage>&#x2013;<lpage>15</lpage>. <pub-id pub-id-type="doi">10.1007/s12555-016-0462-3</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B34">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Liu</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Chen</surname>
+<given-names>W.</given-names>
+</name>
+<name>
+<surname>Yang</surname>
+<given-names>W.</given-names>
+</name>
+<name>
+<surname>Jiao</surname>
+<given-names>Z.</given-names>
+</name>
+<name>
+<surname>Yu</surname>
+<given-names>Y.</given-names>
+</name>
+</person-group> (<year>2023</year>). <article-title>Review of the research progress in soft robots</article-title>. <source>Appl. Sci.</source> <volume>13</volume>, <fpage>120</fpage>. <pub-id pub-id-type="doi">10.3390/app13010120</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B35">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Livanec</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Stumpf</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Reuter</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Fenn</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Kiesel</surname>
+<given-names>A.</given-names>
+</name>
+</person-group> (<year>2022</year>). <article-title>Who&#x2019;s gonna use this? Acceptance prediction of emerging technologies with cognitive-affective mapping and transdisciplinary considerations in the anthropocene</article-title>. <source>Anthropocene Rev.</source> <volume>9</volume>, <fpage>276</fpage>&#x2013;<lpage>295</lpage>. <pub-id pub-id-type="doi">10.1177/20530196221078924</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B36">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Mayring</surname>
+<given-names>P.</given-names>
+</name>
+</person-group> (<year>2022</year>). <source>Qualitative content analysis: a step-by-step guide</source>. <publisher-loc>London, United Kingdom</publisher-loc>: <publisher-name>SAGE Publications Ltd</publisher-name>.</mixed-citation>
+</ref>
+<ref id="B37">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Mazzolai</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>Mondini</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Dottore</surname>
+<given-names>E. D.</given-names>
+</name>
+<name>
+<surname>Margheri</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Carpi</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Suzumori</surname>
+<given-names>K.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2022</year>). <article-title>Roadmap on soft robotics: multifunctionality, adaptability and growth without borders</article-title>. <source>Multifunct. Mater.</source> <volume>5</volume>, <fpage>032001</fpage>. <pub-id pub-id-type="doi">10.1088/2399-7532/ac4c95</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B38">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Meissner</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Tr&#xfc;bswetter</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Conti-Kufner</surname>
+<given-names>A. S.</given-names>
+</name>
+<name>
+<surname>Schmidtler</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2020</year>). <article-title>Friend or foe? Understanding assembly workers&#x2019; acceptance of human-robot collaboration</article-title>. <source>J. Hum.-Robot Interact.</source> <volume>10</volume> (<issue>3</issue>), <fpage>1</fpage>&#x2013;<lpage>3</lpage>. <pub-id pub-id-type="doi">10.1145/3399433</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B39">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Mietzner</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Reger</surname>
+<given-names>G.</given-names>
+</name>
+</person-group> (<year>2005</year>). <article-title>Advantages and disadvantages of scenario approaches for strategic foresight</article-title>. <source>Int. J. Technol. Intell. Plan.</source> <volume>1</volume>, <fpage>220</fpage>&#x2013;<lpage>239</lpage>. <pub-id pub-id-type="doi">10.1504/ijtip.2005.006516</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B40">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Milana</surname>
+<given-names>E.</given-names>
+</name>
+</person-group> (<year>2022</year>). <article-title>Soft robotics for infrastructure protection</article-title>. <source>Front. Robotics AI</source> <volume>9</volume>, <fpage>1</fpage>&#x2013;<lpage>7</lpage>. <pub-id pub-id-type="doi">10.3389/frobt.2022.1026891</pub-id>
+<pub-id pub-id-type="pmid">36437882</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B41">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>M&#xf6;ller</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>H&#xf6;fele</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Tauber</surname>
+<given-names>F. J.</given-names>
+</name>
+<name>
+<surname>Reuter</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Grie&#xdf;hammer</surname>
+<given-names>R.</given-names>
+</name>
+</person-group> (<year>2021</year>). <article-title>How to assess technological developments in basic research? Enabling formative interventions regarding sustainability, ethics, and consumer issues at an early stage</article-title>. <source>J. Technol. Assess. Theory Pract.</source> <volume>30</volume>, <fpage>56</fpage>&#x2013;<lpage>62</lpage>. <pub-id pub-id-type="doi">10.14512/tatup.30.1.56</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B42">
+<mixed-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>Moradi</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Moradi</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Bayat</surname>
+<given-names>F.</given-names>
+</name>
+</person-group> (<year>2018</year>). &#x201c;<article-title>On robot acceptance and adoption a case study</article-title>,&#x201d; in <conf-name>2018 8th Conference of AI &#x26; Robotics and 10th RoboCup Iranopen International Symposium (IRANOPEN)</conf-name>, <conf-loc>Qazvin, Iran</conf-loc>, <conf-date>10-10 April 2018</conf-date> (<publisher-name>IEEE</publisher-name>), <fpage>21</fpage>&#x2013;<lpage>25</lpage>.</mixed-citation>
+</ref>
+<ref id="B43">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Piezzo</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Suzuki</surname>
+<given-names>K.</given-names>
+</name>
+</person-group> (<year>2017</year>). <article-title>Feasibility study of a socially assistive humanoid robot for guiding elderly individuals during walking</article-title>. <source>Future Internet</source> <volume>9</volume>, <fpage>30</fpage>. <pub-id pub-id-type="doi">10.3390/fi9030030</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B44">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Pinskier</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Howard</surname>
+<given-names>D.</given-names>
+</name>
+</person-group> (<year>2022</year>). <article-title>From bioinspiration to computer generation: developments in autonomous soft robot design</article-title>. <source>Adv. Intell. Syst.</source> <volume>4</volume>, <fpage>2100086</fpage>. <pub-id pub-id-type="doi">10.1002/aisy.202100086</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B45">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Probst</surname>
+<given-names>T. M.</given-names>
+</name>
+<name>
+<surname>Lindgren</surname>
+<given-names>R. J.</given-names>
+</name>
+<name>
+<surname>Dorosh</surname>
+<given-names>R. J.</given-names>
+</name>
+<name>
+<surname>Allen</surname>
+<given-names>J. C.</given-names>
+</name>
+<name>
+<surname>Pascual</surname>
+<given-names>L. S.</given-names>
+</name>
+<name>
+<surname>Luo</surname>
+<given-names>M.</given-names>
+</name>
+</person-group> (<year>2024</year>). <article-title>Effects of prior robot experience, speed, and proximity on psychosocial reactions to a soft growing robot</article-title>. <source>IISE Trans. Occup. Ergonomics Hum. Factors</source> <volume>12</volume>, <fpage>84</fpage>&#x2013;<lpage>96</lpage>. <pub-id pub-id-type="doi">10.1080/24725838.2023.2284193</pub-id>
+<pub-id pub-id-type="pmid">37970839</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B46">
+<mixed-citation publication-type="book">
+<collab>R Core Team</collab> (<year>2020</year>). <source>R: a language and environment for statistical computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name>.</mixed-citation>
+</ref>
+<ref id="B47">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Reips</surname>
+<given-names>U.-D.</given-names>
+</name>
+</person-group> (<year>2021</year>). <article-title>Web-based research in psychology: a review</article-title>. <source>Z. f&#xfc;r Psychol.</source> <volume>229</volume>, <fpage>198</fpage>&#x2013;<lpage>213</lpage>. <pub-id pub-id-type="doi">10.1027/2151-2604/a000475</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B48">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Reuter</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Mansell</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Rhea</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Kiesel</surname>
+<given-names>A.</given-names>
+</name>
+</person-group> (<year>2022</year>). <article-title>Direct assessment of individual connotation and experience: an introduction to cognitive-affective mapping</article-title>. <source>Polit. Life Sci.</source> <volume>41</volume>, <fpage>131</fpage>&#x2013;<lpage>139</lpage>. <pub-id pub-id-type="doi">10.1017/pls.2021.31</pub-id>
+<pub-id pub-id-type="pmid">36877115</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B49">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Revelle</surname>
+<given-names>W.</given-names>
+</name>
+</person-group> (<year>2021</year>). <source>Psych: procedures for psychological, psychometric, and personality research</source>. <publisher-loc>Evanston, Illinois</publisher-loc>: <publisher-name>Northwestern University</publisher-name>.</mixed-citation>
+</ref>
+<ref id="B50">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rosenthal-von der P&#xfc;tten</surname>
+<given-names>A. M.</given-names>
+</name>
+<name>
+<surname>Kr&#xe4;mer</surname>
+<given-names>N. C.</given-names>
+</name>
+<name>
+<surname>Hoffmann</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Sobieraj</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Eimler</surname>
+<given-names>S. C.</given-names>
+</name>
+</person-group> (<year>2013</year>). <article-title>An experimental study on emotional reactions towards a robot</article-title>. <source>Int. J. Soc. Robotics</source> <volume>5</volume>, <fpage>17</fpage>&#x2013;<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1007/s12369-012-0173-8</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B51">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rosenthal-von der P&#xfc;tten</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Arndt</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Pieczykolan</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Pohl</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Jung</surname>
+<given-names>M.</given-names>
+</name>
+</person-group> (<year>2025</year>). <article-title>Within, between, forced choice, or likert scale? How methodological decisions influence recognition rates in HRI recognition studies</article-title>. <source>Int. J. Soc. Robotics</source> <volume>17</volume>, <fpage>693</fpage>&#x2013;<lpage>706</lpage>. <pub-id pub-id-type="doi">10.1007/s12369-025-01231-8</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B52">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rossiter</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2021</year>). <article-title>Soft robotics: the route to true robotic organisms</article-title>. <source>Artif. Life Robotics</source> <volume>26</volume>, <fpage>269</fpage>&#x2013;<lpage>274</lpage>. <pub-id pub-id-type="doi">10.1007/s10015-021-00688-w</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B53">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>&#x160;abanovi&#x107;</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Charisi</surname>
+<given-names>V.</given-names>
+</name>
+<name>
+<surname>Belpaeme</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Bethel</surname>
+<given-names>C. L.</given-names>
+</name>
+<name>
+<surname>Matari&#x107;</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Murphy</surname>
+<given-names>R.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2023</year>). <article-title>&#x201c;robots for good&#x201d;: ten defining questions</article-title>. <source>Sci. Robotics</source> <volume>8</volume>, <fpage>eadl4238</fpage>. <pub-id pub-id-type="doi">10.1126/scirobotics.adl4238</pub-id>
+<pub-id pub-id-type="pmid">38019928</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B54">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Sauter</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Draschkow</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Mack</surname>
+<given-names>W.</given-names>
+</name>
+</person-group> (<year>2020</year>). <article-title>Building, hosting and recruiting: a brief introduction to running behavioral experiments online</article-title>. <source>Brain Sci.</source> <volume>10</volume>, <fpage>251</fpage>. <pub-id pub-id-type="doi">10.3390/brainsci10040251</pub-id>
+<pub-id pub-id-type="pmid">32344671</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B55">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Schwartz</surname>
+<given-names>P.</given-names>
+</name>
+</person-group> (<year>1996</year>). <source>The art of the long view: paths to strategic insight for yourself and your company</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Crown Business</publisher-name>.</mixed-citation>
+</ref>
+<ref id="B56">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Shore</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Power</surname>
+<given-names>V.</given-names>
+</name>
+<name>
+<surname>Hartigan</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>Sch&#xfc;lein</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Graf</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>de Eyto</surname>
+<given-names>A.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2020</year>). <article-title>Exoscore: a design tool to evaluate factors associated with technology acceptance of soft lower limb exosuits by older adults</article-title>. <source>Hum. Factors</source> <volume>62</volume>, <fpage>391</fpage>&#x2013;<lpage>410</lpage>. <pub-id pub-id-type="doi">10.1177/0018720819868122</pub-id>
+<pub-id pub-id-type="pmid">31419179</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B57">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Speck</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Schulz</surname>
+<given-names>M. E.</given-names>
+</name>
+<name>
+<surname>Fischer</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>R&#xfc;he</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2023</year>). &#x201c;<article-title>Cluster of excellence living, adaptive and energy-autonomous materials systems (livMatS)</article-title>,&#x201d; in <source>Future automotive production conference 2022</source>. Editors <person-group person-group-type="editor">
+<name>
+<surname>Dr&#xf6;der</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Vietor</surname>
+<given-names>T.</given-names>
+</name>
+</person-group> (<publisher-loc>Wiesbaden</publisher-loc>: <publisher-name>Springer Fachmedien</publisher-name>), <fpage>239</fpage>&#x2013;<lpage>252</lpage>. <pub-id pub-id-type="doi">10.1007/978-3-658-39928-3_18</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B58">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Stella</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Hughes</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2023</year>). <article-title>The science of soft robot design: a review of motivations, methods and enabling technologies</article-title>. <source>Front. Robotics AI</source> <volume>9</volume>, <fpage>1059026</fpage>. <pub-id pub-id-type="doi">10.3389/frobt.2022.1059026</pub-id>
+<pub-id pub-id-type="pmid">36743292</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B59">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Stilgoe</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Owen</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Macnaghten</surname>
+<given-names>P.</given-names>
+</name>
+</person-group> (<year>2013</year>). <article-title>Developing a framework for responsible innovation</article-title>. <source>Res. Policy</source> <volume>42</volume>, <fpage>1568</fpage>&#x2013;<lpage>1580</lpage>. <pub-id pub-id-type="doi">10.1016/j.respol.2013.05.008</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B60">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Tauber</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Desmulliez</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Piccin</surname>
+<given-names>O.</given-names>
+</name>
+<name>
+<surname>Stokes</surname>
+<given-names>A. A.</given-names>
+</name>
+</person-group> (<year>2023</year>). <article-title>Perspective for soft robotics: the field&#x2019;s past and future</article-title>. <source>Bioinspiration &#x26; Biomimetics</source> <volume>18</volume>, <fpage>035001</fpage>. <pub-id pub-id-type="doi">10.1088/1748-3190/acbb48</pub-id>
+<pub-id pub-id-type="pmid">36764003</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B61">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Thagard</surname>
+<given-names>P.</given-names>
+</name>
+</person-group> (<year>2010</year>). &#x201c;<article-title>EMPATHICA: a computer support system with visual representations for cognitive-affective mapping</article-title>,&#x201d; in <source>Workshops at the twenty-fourth AAAI conference on artificial intelligence</source>, <fpage>79</fpage>&#x2013;<lpage>81</lpage>.</mixed-citation>
+</ref>
+<ref id="B62">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Torre</surname>
+<given-names>I.</given-names>
+</name>
+<name>
+<surname>White</surname>
+<given-names>L.</given-names>
+</name>
+</person-group> (<year>2021</year>). &#x201c;<article-title>Trust in vocal human&#x2013;robot interaction: implications for robot voice design</article-title>,&#x201d; in <source>Voice attractiveness: studies on sexy, likable</source> (<publisher-loc>Singapore</publisher-loc>: <publisher-name>Springer</publisher-name>), <fpage>299</fpage>&#x2013;<lpage>316</lpage>. <pub-id pub-id-type="doi">10.1007/978-981-15-6627-1_16</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B63">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Trivedi</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Rahn</surname>
+<given-names>C. D.</given-names>
+</name>
+<name>
+<surname>Kier</surname>
+<given-names>W. M.</given-names>
+</name>
+<name>
+<surname>Walker</surname>
+<given-names>I. D.</given-names>
+</name>
+</person-group> (<year>2008</year>). <article-title>Soft robotics: biological inspiration, state of the art, and future research</article-title>. <source>Appl. Bionics Biomechanics</source> <volume>5</volume>, <fpage>99</fpage>&#x2013;<lpage>117</lpage>. <pub-id pub-id-type="doi">10.1080/11762320802557865</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B64">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>van Adrichem</surname>
+<given-names>R. C.</given-names>
+</name>
+<name>
+<surname>Jovanova</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<year>2021</year>). &#x201c;<article-title>Human acceptance as part of the soft robot design</article-title>,&#x201d; in <source>ASME 2021 conference on smart materials, adaptive structures and intelligent systems</source> (<publisher-name>American Society of Mechanical Engineers Digital Collection</publisher-name>). <pub-id pub-id-type="doi">10.1115/SMASIS2021-68268</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B65">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Van Rossum</surname>
+<given-names>G.</given-names>
+</name>
+<name>
+<surname>Drake</surname>
+<given-names>F. L.</given-names>
+</name>
+</person-group> (<year>2009</year>). <source>Python 3 reference manual</source>. <publisher-loc>Scotts Valley, CA: CreateSpace</publisher-loc>.</mixed-citation>
+</ref>
+<ref id="B66">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Veling</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>McGinn</surname>
+<given-names>C.</given-names>
+</name>
+</person-group> (<year>2021</year>). <article-title>Qualitative research in HRI: a review and taxonomy</article-title>. <source>Int. J. Soc. Robotics</source> <volume>13</volume>, <fpage>1689</fpage>&#x2013;<lpage>1709</lpage>. <pub-id pub-id-type="doi">10.1007/s12369-020-00723-z</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B67">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Venkatesh</surname>
+<given-names>V.</given-names>
+</name>
+<name>
+<surname>Bala</surname>
+<given-names>H.</given-names>
+</name>
+</person-group> (<year>2008</year>). <article-title>Technology acceptance model 3 and a research agenda on interventions</article-title>. <source>Decis. Sci.</source> <volume>39</volume>, <fpage>273</fpage>&#x2013;<lpage>315</lpage>. <pub-id pub-id-type="doi">10.1111/j.1540-5915.2008.00192.x</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B68">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Wang</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Chortos</surname>
+<given-names>A.</given-names>
+</name>
+</person-group> (<year>2022</year>). <article-title>Control strategies for soft robot systems</article-title>. <source>Adv. Intell. Syst.</source> <volume>4</volume>, <fpage>2100165</fpage>. <pub-id pub-id-type="doi">10.1002/aisy.202100165</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B69">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Wang</surname>
+<given-names>Y.</given-names>
+</name>
+<name>
+<surname>Wang</surname>
+<given-names>G.</given-names>
+</name>
+<name>
+<surname>Ge</surname>
+<given-names>W.</given-names>
+</name>
+<name>
+<surname>Duan</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Chen</surname>
+<given-names>Z.</given-names>
+</name>
+<name>
+<surname>Wen</surname>
+<given-names>L.</given-names>
+</name>
+</person-group> (<year>2024</year>). <article-title>Perceived safety assessment of interactive motions in human&#x2013;soft robot interaction</article-title>. <source>Biomimetics</source> <volume>9</volume>, <fpage>58</fpage>. <pub-id pub-id-type="doi">10.3390/biomimetics9010058</pub-id>
+<pub-id pub-id-type="pmid">38275455</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B70">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Ward</surname>
+<given-names>P. K.</given-names>
+</name>
+<name>
+<surname>Manamperi</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Brooks</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Mann</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Kaluarachchi</surname>
+<given-names>W.</given-names>
+</name>
+<name>
+<surname>Matkovic</surname>
+<given-names>L.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2014</year>). <source>Climbing robot for steel bridge inspection: design challenges</source>.</mixed-citation>
+</ref>
+<ref id="B71">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Whelan</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Murphy</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Barrett</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Krusche</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Santorelli</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Casey</surname>
+<given-names>D.</given-names>
+</name>
+</person-group> (<year>2018</year>). <article-title>Factors affecting the acceptability of social robots by older adults including people with dementia or cognitive impairment: a literature review</article-title>. <source>Int. J. Soc. Robotics</source> <volume>10</volume>, <fpage>643</fpage>&#x2013;<lpage>668</lpage>. <pub-id pub-id-type="doi">10.1007/s12369-018-0471-x</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B72">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Wickham</surname>
+<given-names>H.</given-names>
+</name>
+</person-group> (<year>2016</year>). <source>
+<italic>Ggplot2</italic>. Use R</source>. <publisher-loc>Cham</publisher-loc>: <publisher-name>Springer International Publishing</publisher-name>. <pub-id pub-id-type="doi">10.1007/978-3-319-24277-4</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B73">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Xie</surname>
+<given-names>Y.</given-names>
+</name>
+<name>
+<surname>Allaire</surname>
+<given-names>J. J.</given-names>
+</name>
+<name>
+<surname>Grolemund</surname>
+<given-names>G.</given-names>
+</name>
+</person-group> (<year>2018</year>). <source>R markdown: the definitive guide</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Chapman and Hall/CRC</publisher-name>. <pub-id pub-id-type="doi">10.1201/9781138359444</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B74">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Yam</surname>
+<given-names>K. C.</given-names>
+</name>
+<name>
+<surname>Tang</surname>
+<given-names>P. M.</given-names>
+</name>
+<name>
+<surname>Jackson</surname>
+<given-names>J. C.</given-names>
+</name>
+<name>
+<surname>Su</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Gray</surname>
+<given-names>K.</given-names>
+</name>
+</person-group> (<year>2023</year>). <article-title>The rise of robots increases job insecurity and maladaptive workplace behaviors: multimethod evidence</article-title>. <source>J. Appl. Psychol.</source> <volume>108</volume>, <fpage>850</fpage>&#x2013;<lpage>870</lpage>. <pub-id pub-id-type="doi">10.1037/apl0001045</pub-id>
+<pub-id pub-id-type="pmid">36222634</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B75">
+<mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Yasa</surname>
+<given-names>O.</given-names>
+</name>
+<name>
+<surname>Toshimitsu</surname>
+<given-names>Y.</given-names>
+</name>
+<name>
+<surname>Michelis</surname>
+<given-names>M. Y.</given-names>
+</name>
+<name>
+<surname>Jones</surname>
+<given-names>L. S.</given-names>
+</name>
+<name>
+<surname>Filippi</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Buchner</surname>
+<given-names>T.</given-names>
+</name>
+<etal/>
+</person-group> (<year>2023</year>). <article-title>An overview of soft robotics</article-title>. <source>Annu. Rev. Control, Robotics, Aut. Syst.</source> <volume>6</volume>, <fpage>1</fpage>&#x2013;<lpage>29</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-control-062322-100607</pub-id>
+</mixed-citation>
+</ref>
+<ref id="B76">
+<mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Zuz&#xe1;nek</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Zimmermann</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Hlav&#xe1;&#x10d;</surname>
+<given-names>V.</given-names>
+</name>
+</person-group> (<year>2014</year>). &#x201c;<article-title>Accepted autonomy for search and rescue robotics</article-title>,&#x201d; in <source>Modelling and simulation for autonomous systems</source>. Editor <person-group person-group-type="editor">
+<name>
+<surname>Hodicky</surname>
+<given-names>J.</given-names>
+</name>
+</person-group> (<publisher-loc>Cham</publisher-loc>: <publisher-name>Springer International Publishing</publisher-name>), <fpage>231</fpage>&#x2013;<lpage>240</lpage>. <pub-id pub-id-type="doi">10.1007/978-3-319-13823-7_21</pub-id>
+</mixed-citation>
+</ref>
+</ref-list>
+<fn-group>
+<fn fn-type="custom" custom-type="edited-by">
+<p>
+<bold>Edited by:</bold> <ext-link ext-link-type="uri" xlink:href="https://loop.frontiersin.org/people/1114931/overview">Hunter Gilbert</ext-link>, Louisiana State University, United States</p>
+</fn>
+<fn fn-type="custom" custom-type="reviewed-by">
+<p>
+<bold>Reviewed by:</bold> <ext-link ext-link-type="uri" xlink:href="https://loop.frontiersin.org/people/3192586/overview">Felix H&#xf6;pfl</ext-link>, University of Applied Sciences Rosenheim, Germany</p>
+<p>
+<ext-link ext-link-type="uri" xlink:href="https://loop.frontiersin.org/people/3324607/overview">Steven Stroessner</ext-link>, University of California, Los Angeles, United States</p>
+</fn>
+</fn-group>
+</back>
+</article>

@@ -1,0 +1,69 @@
+/*
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+    right: 10px;
+    margin-bottom: 10px;
+}
+*/
+
+#toprightdiv {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    margin-right: 20px;
+    color: red;
+    border: 2px solid black; /* This adds a line around the div */
+    background-color: yellow; /* This sets the background color of the div */
+    padding: 5px; /* This adds space around the text inside the div */
+  }
+  
+  
+  #toprightdiv_pagenumber {
+    position: fixed;
+    top: 65px;
+    right: 0;
+    margin-right: 20px;
+    color: red;
+    border: 2px solid black; /* This adds a line around the div */
+    background-color: yellow; /* This sets the background color of the div */
+    padding: 5px; /* This adds space around the text inside the div */
+  }
+
+input[type="radio"] {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+
+.defocus {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.centerIMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.w-xl {
+    width: 100%;
+    max-width: calc(3 * 320px);
+    max-width: calc(3 * var(--width-min-container));
+    margin-left: auto;
+    margin-right: auto;
+  }

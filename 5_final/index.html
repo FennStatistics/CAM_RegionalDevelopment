@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>Clean Energy Valley – CAM-Studie (Teil 5)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="lib/lab.js" data-labjs-script="library"></script>
+    <link rel="stylesheet" href="lib/lab.css" />
+
+    <!-- served by the JATOS server in its matching version (404 locally, harmless) -->
+    <script src="jatos.js"></script>
+
+    <script defer src="./src/js/globals.js"></script>
+    <script defer src="./src/js/lib/deltaCam.js"></script>
+    <script defer src="./src/js/phases/deltaFeedback.js"></script>
+    <script defer src="./src/js/phases/interview.js"></script>
+    <script defer src="./src/js/phases/thanks.js"></script>
+    <script defer src="study.js"></script>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+
+  <body>
+    <div class="seite">
+      <div class="karte">
+        <!-- TODO(Leipzig): Logos Uni Leipzig / Projekt einbinden -->
+        <div class="karte-kopf">
+          <p class="studien-label">Universität Leipzig · Clean Energy Valley</p>
+        </div>
+        <div
+          class="progress"
+          role="progressbar"
+          aria-label="Fortschritt"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+        >
+          <div class="progress-bar"></div>
+        </div>
+
+        <div data-labjs-section="main">
+          <div class="lade-hinweis">
+            <img src="lib/loading.svg" alt="" width="48" /><br />
+            <p>
+              <strong>Studie wird geladen …</strong><br />
+              <span class="text-muted">einen Moment bitte</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>CAM t2 — Clean Energy Valley</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./img/favicon_logoCAM2.PNG"
+    />
+
+    <!--
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    -->
+
+    <style>
+      #loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        z-index: 9999;
+      }
+    </style>
+  </head>
+
+  <body id="hideall">
+    <div id="loading-screen">
+      Bitte warten, wird geladen…
+    </div>
+
+    <!-- DIALOGS -->
+    <div id="dialogStart" title="Herzlich willkommen zur zweiten CAM!">
+      <div class="properties" style="font-size: 12px;">
+        Hier sehen Sie Ihre bisherige <i>kognitiv-affektive Karte</i> (CAM)
+        sowie fünf vorgegebene Konzepte oben links:
+        <ul style="font-size: 12px;">
+          <li>Ihre CAM aus dem ersten Teil ist geladen — bestehende Konzepte behalten ihre Identität.</li>
+          <li>Die fünf Zusatzkonzepte (Windenergie, Wasserstoff, Netzausbau, Akzeptanz, Arbeitsplätze) können Sie verschieben, verknüpfen oder löschen; der Text ist fest.</li>
+          <li>Der Zentralbegriff „klimaneutrale Regionalentwicklung“ (Kreis Dithmarschen) bleibt fest; die Bewertung dürfen Sie ändern.</li>
+          <li>Per Doppelklick fügen Sie weitere eigene Konzepte hinzu. Alles lässt sich ändern, verschieben oder löschen.</li>
+          <li>Verwenden Sie nicht mehr als drei Wörter pro neuem Begriff.</li>
+          <li>Verbinden Sie alle gezeichneten Begriffe miteinander.</li>
+          <li>Kommentieren Sie gerne, was Sie zeichnen und warum.</li>
+        </ul>
+        Wenn Sie Hilfe benötigen, klicken Sie auf den grünen
+        Referenzknopf oben rechts. Um Ihr CAM zu speichern und weiterzugehen,
+        klicken Sie auf das Diskettensymbol.
+        <br />
+        <br />
+        Bitte zoomen Sie heraus, so dass Sie das gesamte Zeichenfenster des CAMs
+        sehen können. Sie können nun dieses Dialogfenster schließen und
+        mit dem Zeichnen beginnen.
+      </div>
+    </div>
+
+    <!-- > remind participant -->
+    <div id="dialogReminder" title="Hinweis">
+      <div id="textDialogReminder" class="properties" style="font-size: 14px;">
+      </div>
+    </div>
+
+    <!-- > confirm save -->
+    <div id="dialogConfirmSave" title="Confirm">
+    </div>
+
+    <!-- > confirm delete -->
+    <div id="dialogConfirmDelete" title="Confirm">
+    </div>
+
+    <!-- > set up study -->
+    <div id="dialogSetUpStudy" title="Define parameters for your study"></div>
+
+    <!-- > quick reference -->
+    <div id="dialogReference" title="Quick reference"></div>
+
+    <!-- > change connector -->
+    <div id="dialogInteractionEdge" title="Change connector"></div>
+
+    <!-- > change node -->
+    <div id="dialogInteractionNode" title="Change concept"></div>
+
+    <!-- HEADER -->
+    <div class="main">
+      <div class="boxCAMSVG">
+        <div id="headerInterface">
+          <div id="leftButton" class="cam-header-left">
+            <div id="hideResearcherButtonsTop"></div>
+          </div>
+
+          <div class="cam-header-middle">
+            <span style="font-weight: bold">Cognitive-Affective Maps</span>
+            <img
+              src="./img/logoCAM2.svg"
+              alt="img Valence logo not found"
+              style="height: 1.3rem; width: auto; margin-top: 3px"
+            />
+          </div>
+
+          <div id="rightButton" class="cam-header-right">
+            <button
+              id="quickref"
+              class="material-icons"
+              title="Open a quick reference"
+              style="color: green"
+            >
+              help
+            </button>
+          </div>
+        </div>
+
+        <div class="CAMContainer">
+          <svg id="CAMSVG"></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- defocus div element: -->
+    <div id="alert" style="background: white; visibility: hidden" class="content">
+      <div style="text-align: center;">
+        <div id="alert-text" style="font-weight: bold;">
+        </div>
+        <br />
+        <button
+          id="alert-button-text"
+          type="button"
+          onclick="document.getElementById('alert').style.visibility = 'hidden';
+          document.getElementById('hideall').style.visibility = 'visible'; enterFullscreen(); showDialogOnce();"
+        >
+          click to continue
+        </button>
+      </div>
+    </div>
+
+    <script type="module" src="/src/js/app/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+---
+description: Kernregeln für Uni Leipzig CAM (lab.js + Vite-CAM + JATOS)
+alwaysApply: true
+---
+
+# Uni Leipzig CAM – Kernregeln
+
+- Lies zuerst [AGENTS.md](AGENTS.md) und [_briefing/00_LIES_MICH_ZUERST.md](_briefing/00_LIES_MICH_ZUERST.md). Briefing unter `_briefing/`; Aufträge unter `prompts/`.
+- Fünfteilige Studie: **lab.js** (`1_start/`, `3_between/`, `5_final/`) + **Vite-CAM** (`2_CAM_t1/`, `4_CAM_t2/`, Build mit `npm run build:jatos`) + **JATOS**.
+- Verbindliche Kette: `1_start → 2_CAM_t1 → 3_between → 4_CAM_t2 → 5_final` → Redirect Arbeitsgruppen.
+- `template/` ist **veraltet** (Soft Robots, Legacy-CAMEL) — nicht als Codebasis kopieren. OnlineStudies-Root-/Kita-/Herder-Regeln gelten **nicht** für diese Studie.
+- Inhalte 1:1 aus Briefing (Zentralbegriff, Fix-Konzepte, Delta-Regeln). Unklar → `TODO(Leipzig): …` + nachfragen.
+- UI Deutsch, durchgehend **Sie-Form**; professioneller Ton; keine Soft-Robot-/Prolific-/Freiburg-Inhalte.
+- Vite-CAM: Zustand in `store.cam` (kein globales `CAM`); Node-/Connector-UUIDs für Delta-CAM erhalten.
+- Git nur auf Nutzer-Anfrage. Nie `.env`, echte Ergebnisdaten committen.
+- Lokal: lab.js per Live Server (`jatos.js`-404 harmlos); CAM per `npm run dev`. Nach Änderungen Browser/Konsole prüfen.
+
+## Prompt-Disziplin
+
+- Nur den **aktuellen** Prompt aus `prompts/` umsetzen; spätere Teile nicht vorwegnehmen.
+- Am Ende berichten: Dateien, Tests, Testanleitung, offene Punkte, `TODO(Leipzig)`.
